@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "id3259161_charecterusername";
-$password = "00000";
-$dbname = "id3259161_charecterdb";
+$username = "root";
+$password = "";
+$dbname = "ooo";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -19,12 +19,37 @@ $result = $conn->query($sql);
 
 
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-       echo "id: " . $row["id"]."eff: " . $row["eff"]. "<br>";
+
+ 
+if ($result->num_rows > 0) {   
+ while($row = $result->fetch_assoc()){
+       echo "id: " .$row["id"]."eff: " . $row["eff"]. "<br>";
     }
+
 } else {
     echo "0 results";
 }
+ 
+
+
+
+$sql = "SELECT picture FROM charecter where id=1";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {   
+ while($row = $result->fetch_assoc()){
+        $pic=$row["picture"];
+    }
+
+} else {
+    echo "0 results";
+}
+
+while($i!=311){
+echo "ch".$i.':'.'<br>';
+echo "sub-ch".$i.':'.'<br>';
+$i++;
+}
 ?>
+
+<img src="img/sub-<?php echo $pic;?>">

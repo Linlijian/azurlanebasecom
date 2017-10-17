@@ -1,0 +1,5 @@
+select status
+>SELECT status.hp,status.atk,status.defFly,status.dodge,status.atkFly,status.atkTPD FROM status INNER JOIN charecter ON charecter.status = status.status
+
+select drop-location
+>SELECT drops.dropsList FROM location INNER JOIN drops ON drops.drops = location.drops
