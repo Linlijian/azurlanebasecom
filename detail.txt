@@ -1,0 +1,1 @@
+charecterID,name,rarity,nationality,class,hullType,TimeToCreate,location,upgrade,destroy
