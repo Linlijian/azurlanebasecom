@@ -78,97 +78,97 @@
 118,,,,,,,ch118,ch118,ch118
 119,London,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch119,ch119,ch119
 120,Shropshire,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch120,ch120,ch120
-121,,,,,,,ch121,ch121,ch121
-122,,,,,,,ch122,ch122,ch122
-123,,,,,,,ch123,ch123,ch123
-124,,,,,,,ch124,ch124,ch124
-125,,,,,,,ch125,ch125,ch125
-126,,,,,,,ch126,ch126,ch126
-127,,,,,,,ch127,ch127,ch127
-128,,,,,,,ch128,ch128,ch128
-129,,,,,,,ch129,ch129,ch129
-130,,,,,,,ch130,ch130,ch130
-131,,,,,,,ch131,ch131,ch131
-132,,,,,,,ch132,ch132,ch132
-133,,,,,,,ch133,ch133,ch133
+121,Kent,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch121,ch121,ch121
+122,Suffolk,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch122,ch122,ch122
+123,Norfolk,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch123,ch123,ch123
+124,Dorsetshire,5,Royal Navy,CA,Heavy Cruiser,01:30:00,ch124,ch124,ch124
+125,York,5,Royal Navy,CA,Heavy Cruiser,01:45:00,ch125,ch125,ch125
+126,Exeter,5,Royal Navy,CA,Heavy Cruiser,01:45:00,ch126,ch126,ch126
+127,Renown,5,Royal Navy,CC,Battlecruiser,04:10:00,ch127,ch127,ch127
+128,Repulse,5,Royal Navy,CC,Battlecruiser,04:10:00,ch128,ch128,ch128
+129,Hood,6,Royal Navy,CC,Battlecruiser,05:50:00,ch129,ch129,ch129
+130,Queen Elizabeth,5,Royal Navy,BB,Battleship,04:10:00,ch130,ch130,ch130
+131,Warspite,6,Royal Navy,BB,Battleship,04:10:00,ch131,ch131,ch131
+132,Nelson,5,Royal Navy,BB,Battleship,04:40:00,ch132,ch132,ch132
+133,Rodney,5,Royal Navy,BB,Battleship,04:40:00,ch133,ch133,ch133
 134,,,,,,,ch134,ch134,ch134
-135,,,,,,,ch135,ch135,ch135
+135,Prince of Wales,6,Royal Navy,BB,Battleship,04:50:00,ch135,ch135,ch135
 136,,,,,,,ch136,ch136,ch136
 137,,,,,,,ch137,ch137,ch137
 138,,,,,,,ch138,ch138,ch138
 139,,,,,,,ch139,ch139,ch139
-140,,,,,,,ch140,ch140,ch140
+140,Hermes,4,Royal Navy,CVL,Light Aircraft Carrier,02:10:00,ch140,ch140,ch140
 141,,,,,,,ch141,ch141,ch141
-142,,,,,,,ch142,ch142,ch142
+142,Unicorn,5,Royal Navy,CVL,Light Aircraft Carrier,02:30:00,ch142,ch142,ch142
 143,,,,,,,ch143,ch143,ch143
-144,,,,,,,ch144,ch144,ch144
-145,,,,,,,ch145,ch145,ch145
+144,Ark Royal,5,Royal Navy,CV,Aircraft Carrier,04:00:00,ch144,ch144,ch144
+145,Illustrious,6,Royal Navy,CV,Aircraft Carrier,04:30:00,ch145,ch145,ch145
 146,,,,,,,ch146,ch146,ch146
 147,,,,,,,ch147,ch147,ch147
 148,,,,,,,ch148,ch148,ch148
-149,,,,,,,ch149,ch149,ch149
-150,,,,,,,ch150,ch150,ch150
+149,Erebus,5,Royal Navy,BM,Monitor,01:00:00,ch149,ch149,ch149
+150,Terror,5,Royal Navy,BM,Monitor,01:00:00,ch150,ch150,ch150
 151,,,,,,,ch151,ch151,ch151
 152,,,,,,,ch152,ch152,ch152
 153,,,,,,,ch153,ch153,ch153
 154,,,,,,,ch154,ch154,ch154
-155,,,,,,,ch155,ch155,ch155
+155,Ayanami,5,Sakura Empire,DD,Destroyer,None,ch155,ch155,ch155
 156,,,,,,,ch156,ch156,ch156
 157,,,,,,,ch157,ch157,ch157
 158,,,,,,,ch158,ch158,ch158
-159,,,,,,,ch159,ch159,ch159
+159,Akatsuki,5,Sakura Empire,DD,Destroyer,Drop Only (event),ch159,ch159,ch159
 160,,,,,,,ch160,ch160,ch160
-161,,,,,,,ch161,ch161,ch161
-162,,,,,,,ch162,ch162,ch162
-163,,,,,,,ch163,ch163,ch163
-164,,,,,,,ch164,ch164,ch164
-165,,,,,,,ch165,ch165,ch165
+161,Ikazuchi,5,Sakura Empire,DD,Destroyer,Drop Only,ch161,ch161,ch161
+162,Inazuma,5,Sakura Empire,DD,Destroyer,Drop Only,ch162,ch162,ch162
+163,Shiratsuyu,5,Sakura Empire,DD,Destroyer,Drop Only,ch163,ch163,ch163
+164,Yuudachi,6,Sakura Empire,DD,Destroyer,Drop Only,ch164,ch164,ch164
+165,Shigure,5,Sakura Empire,DD,Destroyer,Drop Only,ch165,ch165,ch165
 166,,,,,,,ch166,ch166,ch166
-167,,,,,,,ch167,ch167,ch167
-168,,,,,,,ch168,ch168,ch168
+167,Kagerou,5,Sakura Empire,DD,Destroyer,Drop Only,ch167,ch167,ch167
+168,Shiranui,4,Sakura Empire,DD,Destroyer,Drop Only,ch168,ch168,ch168
 169,,,,,,,ch169,ch169,ch169
-170,,,,,,,ch170,ch170,ch170
-171,,,,,,,ch171,ch171,ch171
+170,Nowaki,5,Sakura Empire,DD,Destroyer,00:27:00 (limited),ch170,ch170,ch170
+171,Hatsuharu,5,Sakura Empire,DD,Destroyer,Unknow,ch171,ch171,ch171
 172,,,,,,,ch172,ch172,ch172
 173,,,,,,,ch173,ch173,ch173
 174,,,,,,,ch174,ch174,ch174
 175,,,,,,,ch175,ch175,ch175
-176,,,,,,,ch176,ch176,ch176
+176,Yuugure,5,Sakura Empire,DD,Destroyer,Unknow,ch176,ch176,ch176
 177,,,,,,,ch177,ch177,ch177
 178,,,,,,,ch178,ch178,ch178
-179,,,,,,,ch179,ch179,ch179
+179,Yuubari,5,Sakura Empire,CL,Light Cruiser,01:12:00,ch179,ch179,ch179
 180,,,,,,,ch180,ch180,ch180
 181,,,,,,,ch181,ch181,ch181
 182,,,,,,,ch182,ch182,ch182
-183,,,,,,,ch183,ch183,ch183
+183,Isuzu,5,Sakura Empire,CL,Light Cruiser,Drop Only,ch183,ch183,ch183
 184,,,,,,,ch184,ch184,ch184
 185,,,,,,,ch185,ch185,ch185
 186,,,,,,,ch186,ch186,ch186
-187,,,,,,,ch187,ch187,ch187
+187,Abukuma,4,Sakura Empire,CL,Light Cruiser,Drop Only,ch187,ch187,ch187
 188,,,,,,,ch188,ch188,ch188
 189,,,,,,,ch189,ch189,ch189
-190,,,,,,,ch190,ch190,ch190
-191,,,,,,,ch191,ch191,ch191
-192,,,,,,,ch192,ch192,ch192
-193,,,,,,,ch193,ch193,ch193
+190,Furutaka,4,Sakura Empire,CL,Light Cruiser,Drop Only,ch190,ch190,ch190
+191,Kako,4,Sakura Empire,CL,Light Cruiser,Drop Only,ch191,ch191,ch191
+192,Aoba,4,Sakura Empire,CA,Heavy Cruiser,None,ch192,ch192,ch192
+193,Kinugasa,4,Sakura Empire,CA,Heavy Cruiser,1:30:00,ch193,ch193,ch193
 194,,,,,,,ch194,ch194,ch194
 195,,,,,,,ch195,ch195,ch195
-196,,,,,,,ch196,ch196,ch196
-197,,,,,,,ch197,ch197,ch197
+196,Myoukou,5,Sakura Empire,CA,Heavy Cruiser,Drop Only 5-1,ch196,ch196,ch196
+197,Nachi,5,Sakura Empire,CA,Heavy Cruiser,Drop Only,ch197,ch197,ch197
 198,,,,,,,ch198,ch198,ch198
 199,,,,,,,ch199,ch199,ch199
-200,,,,,,,ch200,ch200,ch200
-201,,,,,,,ch201,ch201,ch201
-202,,,,,,,ch202,ch202,ch202
+200,Takao,6,Sakura Empire,CA,Heavy Cruiser,02:05:00,ch200,ch200,ch200
+201,Atago,6,Sakura Empire,CA,Heavy Cruiser,02:05:00,ch201,ch201,ch201
+202,Maya,6,Sakura Empire,CA,Heavy Cruiser,00:00:00,ch202,ch202,ch202
 203,,,,,,,ch203,ch203,ch203
 204,,,,,,,ch204,ch204,ch204
 205,,,,,,,ch205,ch205,ch205
 206,,,,,,,ch206,ch206,ch206
 207,,,,,,,ch207,ch207,ch207
-208,,,,,,,ch208,ch208,ch208
-209,,,,,,,ch209,ch209,ch209
-210,,,,,,,ch210,ch210,ch210
-211,,,,,,,ch211,ch211,ch211
+208,Fusou,5,Sakura Empire,BB,Battleship,Drop only,ch208,ch208,ch208
+209,Yamashiro,5,Sakura Empire,BB,Battleship,Drop only,ch209,ch209,ch209
+210,Ise,5,Sakura Empire,BB,Battleship,4:25:00,ch210,ch210,ch210
+211,Hyuuga,5,Sakura Empire,BB,Battleship,4:25:00,ch211,ch211,ch211
 212,,,,,,,ch212,ch212,ch212
 213,,,,,,,ch213,ch213,ch213
 214,,,,,,,ch214,ch214,ch214
@@ -177,59 +177,59 @@
 217,,,,,,,ch217,ch217,ch217
 218,,,,,,,ch218,ch218,ch218
 219,,,,,,,ch219,ch219,ch219
-220,,,,,,,ch220,ch220,ch220
+220,Houshou,5,Sakura Empire,CVL,Light Aircraft Carrier,Drop only,ch220,ch220,ch220
 221,,,,,,,ch221,ch221,ch221
-222,,,,,,,ch222,ch222,ch222
+222,Shouhou,5,Sakura Empire,CVL,Light Aircraft Carrier,Drop only,ch222,ch222,ch222
 223,,,,,,,ch223,ch223,ch223
-224,,,,,,,ch224,ch224,ch224
-225,,,,,,,ch225,ch225,ch225
-226,,,,,,,ch226,ch226,ch226
-227,,,,,,,ch227,ch227,ch227
-228,,,,,,,ch228,ch228,ch228
-229,,,,,,,ch229,ch229,ch229
+224,Akagi,6,Sakura Empire,CV,Aircraft Carrier,Drop only,ch224,ch224,ch224
+225,Kaga,6,Sakura Empire,CV,Aircraft Carrier,Drop only,ch225,ch225,ch225
+226,Souryuu,5,Sakura Empire,CV,Aircraft Carrier,Drop only,ch226,ch226,ch226
+227,Hiryuu,5,Sakura Empire,CV,Aircraft Carrier,Drop only,ch227,ch227,ch227
+228,Shoukaku,6,Sakura Empire,CV,Aircraft Carrier,4:30:00,ch228,ch228,ch228
+229,Zuikaku,6,Sakura Empire,CV,Aircraft Carrier,Unbuildable (Events),ch229,ch229,ch229
 230,,,,,,,ch230,ch230,ch230
 231,,,,,,,ch231,ch231,ch231
-232,,,,,,,ch232,ch232,ch232
-233,,,,,,,ch233,ch233,ch233
+232,Akashi,6,Sakura Empire,AR,Repair Ship,1:35:00,ch232,ch232,ch232
+233,Z1,5,Metalblood,DD,Destroyer,00:29:00,ch233,ch233,ch233
 234,,,,,,,ch234,ch234,ch234
 235,,,,,,,ch235,ch235,ch235
-236,,,,,,,ch236,ch236,ch236
+236,Z23,5,Metalblood,DD,Destroyer,00:33:00,ch236,ch236,ch236
 237,,,,,,,ch237,ch237,ch237
-238,,,,,,,ch238,ch238,ch238
-239,,,,,,,ch239,ch239,ch239
-240,,,,,,,ch240,ch240,ch240
-241,,,,,,,ch241,ch241,ch241
-242,,,,,,,ch242,ch242,ch242
+238,Konigsberg,4,Metalblood,CL,Light Cruiser,01:10:00,ch238,ch238,ch238
+239,Karlsruhe,4,Metalblood,CL,Light Cruiser,01:10:00,ch239,ch239,ch239
+240,Koln,4,Metalblood,CL,Light Cruiser,01:10:00,ch240,ch240,ch240
+241,Leipzig,5,Metalblood,CL,Light Cruiser,01:20:00,ch241,ch241,ch241
+242,Admiral Hipper,5,Metalblood,CA,Heavy Cruiser,02:00:00,ch242,ch242,ch242
 243,,,,,,,ch243,ch243,ch243
-244,,,,,,,ch244,ch244,ch244
-245,,,,,,,ch245,ch245,ch245
+244,Prinz Eugen,6,Metalblood,CA,Heavy Cruiser,02:00:00,ch244,ch244,ch244
+245,Deutschland,5,Metalblood,CA,Heavy Cruiser,Unknow,ch245,ch245,ch245
 246,,,,,,,ch246,ch246,ch246
 247,,,,,,,ch247,ch247,ch247
-248,,,,,,,ch248,ch248,ch248
-249,,,,,,,ch249,ch249,ch249
+248,Scharnhorst,5,Metalblood,CC,Battlecruiser,Unknow,ch248,ch248,ch248
+249,Gneisenau,5,Metalblood,CC,Battlecruiser,Unknow,ch249,ch249,ch249
 250,,,,,,,ch250,ch250,ch250
-251,,,,,,,ch251,ch251,ch251
-252,,,,,,,ch252,ch252,ch252
+251,Tirpitz,6,Metalblood,BB,Battleship,Unknow,ch251,ch251,ch251
+252,Graf Zeppelin,6,Metalblood,CV,Aircraft Carrier,4:35:00,ch252,ch252,ch252
 253,,,,,,,ch253,ch253,ch253
 254,,,,,,,ch254,ch254,ch254
 255,,,,,,,ch255,ch255,ch255
 256,,,,,,,ch256,ch256,ch256
-257,,,,,,,ch257,ch257,ch257
-258,,,,,,,ch258,ch258,ch258
-259,,,,,,,ch259,ch259,ch259
+257,Yat Sen,5,China,CL,Light Cruiser,None,ch257,ch257,ch257
+258,Ning Hai,5,China,CL,Light Cruiser,00:42:00,ch258,ch258,ch258
+259,Ping Hai,5,China,CL,Light Cruiser,00:42:00,ch259,ch259,ch259
 260,,,,,,,ch260,ch260,ch260
 261,,,,,,,ch261,ch261,ch261
-262,,,,,,,ch262,ch262,ch262
-263,,,,,,,ch263,ch263,ch263
-264,,,,,,,ch264,ch264,ch264
-265,,,,,,,ch265,ch265,ch265
-266,,,,,,,ch266,ch266,ch266
-267,,,,,,,ch267,ch267,ch267
+262,Aurora,6,North Union,CL,Light Cruiser,Beta Test Reward,ch262,ch262,ch262
+263,Bailey,5,Eagle Union,DD,Destroyer,July Login Reward,ch263,ch263,ch263
+264,Z19,5,Metalblood,DD,Destroyer,Unknow,ch264,ch264,ch264
+265,Z20,4,Metalblood,DD,Destroyer,Unknow,ch265,ch265,ch265
+266,Z21,4,Metalblood,DD,Destroyer,Unknow,ch266,ch266,ch266
+267,Z46,6,Metalblood,DD,Destroyer,00:40:00,ch267,ch267,ch267
 268,,,,,,,ch268,ch268,ch268
-269,,,,,,,ch269,ch269,ch269
+269,Kamikaze,5,Sakura Empire,DD,Destroyer,00:20:00,ch269,ch269,ch269
 270,,,,,,,ch270,ch270,ch270
-271,,,,,,,ch271,ch271,ch271
-272,,,,,,,ch272,ch272,ch272
+271,Mutsuki,4,Sakura Empire,DD,Destroyer,00:21:00,ch271,ch271,ch271
+272,Kisaragi,4,Sakura Empire,DD,Destroyer,00:21:00,ch272,ch272,ch272
 273,,,,,,,ch273,ch273,ch273
 274,,,,,,,ch274,ch274,ch274
 275,,,,,,,ch275,ch275,ch275
@@ -252,18 +252,18 @@
 292,,,,,,,ch292,ch292,ch292
 293,,,,,,,ch293,ch293,ch293
 294,,,,,,,ch294,ch294,ch294
-295,,,,,,,ch295,ch295,ch295
+295,Niizuki,5,Sakura Empire,DD,Destroyer,Drop Only,ch295,ch295,ch295
 296,,,,,,,ch296,ch296,ch296
 297,,,,,,,ch297,ch297,ch297
 298,,,,,,,ch298,ch298,ch298
-299,,,,,,,ch299,ch299,ch299
-300,,,,,,,ch300,ch300,ch300
-301,,,,,,,ch301,ch301,ch301
+299,Radford,5,Eagle Union,DD,Destroyer,Drop Only,ch299,ch299,ch299
+300,Jenkins,5,Eagle Union,DD,Destroyer,Drop Only,ch300,ch300,ch300
+301,Nicholas,5,Eagle Union,DD,Destroyer,Drop Only,ch301,ch301,ch301
 302,,,,,,,ch302,ch302,ch302
-303,,,,,,,ch303,ch303,ch303
+303,Richmond,4,Eagle Union,CL,Light Cruiser,Drop Only,ch303,ch303,ch303
 304,,,,,,,ch304,ch304,ch304
 305,,,,,,,ch305,ch305,ch305
-306,,,,,,,ch306,ch306,ch306
+306,Jupiter,5,Royal Navy,DD,Destroyer,October Login Reward,ch306,ch306,ch306
 307,,,,,,,ch307,ch307,ch307
 308,,,,,,,ch308,ch308,ch308
 309,,,,,,,ch309,ch309,ch309
