@@ -1,0 +1,1 @@
+status,hp,atk,defFly,dodge,atkFly,atkTPD
