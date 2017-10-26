@@ -1,0 +1,20 @@
+﻿ID,Name,Image,Stars,Rarity,Nation,Torpedo,Damage,RateOfFire,Ranges,Spread,Characteristic,Angle,AmmoType
+TPD1,610mm Twin Torpedo Mount,35000.png,★,Normal,Jp 1.png,0,52 x 2 (82 x 2),,60,30°,Torpedo,60°,Normal
+TPD2,610mm Twin Torpedo Mount,35000.png,★★,Normal,Jp 1.png,5,58 x 2 (94 x 2),,60,30°,Torpedo,60°,Normal
+TPD3,610mm Twin Torpedo Mount,35000.png,★★★,Rare,Jp 1.png,12,66 x 2 (150 x 2),23.94s (20.80s),60,30°,Torpedo,60°,Normal
+TPD4,533mm Triple Torpedo Mount,5000.png,★,Normal,Cm 1.png,0,46 x 3 (70 x 3),27.40s (25.75s),50,40°,Torpedo,60°,Normal
+TPD5,533mm Triple Torpedo Mount,5000.png,★★,Normal,Cm 1.png,5,50 x 3 (77 x 3),,50,40°,Torpedo,60°,Normal
+TPD6,533mm Triple Torpedo Mount,5000.png,★★★,Rare,Cm 1.png,12,56 x 3 (116 x 3),24.79s (21.87s),50,40°,Torpedo,60°,Normal
+TPD7,610mm Triple Torpedo Mount,35100.png,★★,Normal,Jp 1.png,5,52 x 3 (82 x 3),,60,40°,Torpedo,60°,Normal
+TPD8,610mm Triple Torpedo Mount,35100.png,★★★,Rare,Jp 1.png,12,,,60,40°,Torpedo,60°,Normal
+TPD9,610mm Triple Torpedo Mount,35100.png,★★★★,Elite,Jp 1.png,25,66 x 3 (206 x 3),30.57s (24.52s),60,40°,Torpedo,60°,Normal
+TPD10,533mm Quadruple Torpedo Mount,5100.png,★★,Normal,Cm 1.png,5,46 x 4 ( 70 x 4),,50,50°,Torpedo,60°,Normal
+TPD11,533mm Quadruple Torpedo Mount,5100.png,★★★,Rare,Cm 1.png,12,,,50,50°,Torpedo,60°,Normal
+TPD12,533mm Quadruple Torpedo Mount,5100.png,★★★★,Elite,Cm 1.png,25,56 x 4 (156 x 4),28.92s (23.19s),50,50°,Torpedo,60°,Normal
+TPD13,610mm Quadruple Torpedo Mount,35200.png,★★★,Rare,Jp 1.png,12,52 x 4 (),39.43s (),60,50°,Torpedo,60°,Normal
+TPD14,610mm Quadruple Torpedo Mount,35200.png,★★★★,Elite,Jp 1.png,25,,,60,50°,Torpedo,60°,Normal
+TPD15,610mm Quadruple Torpedo Mount,35200.png,★★★★★,Super Rare,Jp 1.png,45,66 x 4 (206 x 4),35.67s (28.61s),60,50°,Torpedo,60°,Normal
+TPD16,533mm Quintuple Torpedo Mount,5200.png,★★★,Rare,Cm 1.png,12,46 x 5 (),36.53s (),50,60°,Torpedo,60°,Normal
+TPD17,533mm Quintuple Torpedo Mount,5200.png,★★★★,Elite,Cm 1.png,25,50 x 5 (),34.79s (),50,60°,Torpedo,60°,Normal
+TPD18,533mm Quintuple Torpedo Mount,5200.png,★★★★★,Super Rare,Cm 1.png,45,56 x 5 (156 x 5),33.05s (26.50s),50,60°,Torpedo,60°,Normal
+TPD19,533mm Quintuple Magnetic Torpedo Mount,45200.png,★★★★★★,Legendary,Cm 1.png,70,62 x 5 (137 x 5),36.72s (29.40s),52,60°,Torpedo,60°,

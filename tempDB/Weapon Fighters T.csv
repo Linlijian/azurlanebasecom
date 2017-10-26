@@ -1,0 +1,28 @@
+﻿ID,Name,Image,Stars,Rarity,Nation,Characteristic,Aviation,DmgRound,RateOfFire,Ranges,Angle,Weapon1,Weapon2,Weapon3
+Fi1,F2A Buffalo,17000.png,★,Normal,Us 1.png,Fighter,0,18 (24),13.27s (12.80s),90,30°,4 x 12.7mm mg,,
+Fi2,F2A Buffalo,17000.png,★★,Normal,Us 1.png,Fighter,5,20 (26),12.96s (12.48s),90,30°,4 x 12.7mm mg,,
+Fi3,F2A Buffalo,17000.png,★★★,Rare,Us 1.png,Fighter,12,22 (36),12.64s (11.72s),90,30°,4 x 12.7mm mg,,
+Fi4,A5M Claude,37000.png,★,Normal,Jp 1.png,Fighter,0,8 (11),12.33s (11.56s),90,30°,2 x 7.7mm mg,,
+Fi5,A5M Claude,37000.png,★★,Normal,Jp 1.png,Fighter,5,9 (12),?(10.78s),90,30°,2 x 7.7mm mg,,
+Fi6,A5M Claude,37000.png,★★★,Rare,Jp 1.png,Fighter,12,10 (18),11.64s (10.76s),90,30°,2 x 7.7mm mg,,
+Fi7,F4F Wildcat,17100.png,★★,Normal,Us 1.png,Fighter,5,22 (33),12.64s (12.16s),90,30°,6 x 12.7mm mg,,
+Fi8,F4F Wildcat,17100.png,★★★,Rare,Us 1.png,Fighter,12,25 (47),12.38s (?),90,30°,6 x 12.7mm mg,,
+Fi9,F4F Wildcat,17100.png,★★★★,Elite,Us 1.png,Fighter,25,27 (69),12.13s (10.58s),90,30°,6 x 12.7mm mg,,
+Fi10,F4U Corsair,17200.png,★★,Normal,Us 1.png,Fighter,5,22 (33),13.05s (12.58s),90,30°,6 x 12.7mm mg,2x 100lb bombs,
+Fi11,F4U Corsair,17200.png,★★★,Rare,Us 1.png,Fighter,12,25 (47),12.13s (?),90,30°,6 x 12.7mm mg,2x 100lb bombs,
+Fi12,F4U Corsair,17200.png,★★★★,Elite,Us 1.png,Fighter,25,27 (69),12.61s (11.05s),90,30°,6 x 12.7mm mg,2 x 100lb bombs,
+Fi13,Seafire,27000.png,★★,Normal,En 1.png,Fighter,5,26 (),13.00s (),90,30°,4 x 7.7mm mg,1 x 500lb bomb,2 x 20mm Cannons
+Fi14,Seafire,27000.png,★★★,Rare,En 1.png,Fighter,12,(),(),90,30°,4 x 7.7mm mg,1 x 500lb bomb,2 x 20mm Cannons
+Fi15,Seafire,27000.png,★★★★,Elite,En 1.png,Fighter,25,31 (78),12.50s (10.85s),90,30°,4 x 7.7mm mg,1 x 500lb bomb,2 x 20mm Cannons
+Fi16,A6M2 Zero,37100.png,★★,Normal,Jp 1.png,Fighter,5,21 (30),12.06s (11.63s),90,30°,2 x 7.7mm mg,2 x 100lb bombs,2 x 20mm cannons
+Fi17,A6M2 Zero,37100.png,★★★,Rare,Jp 1.png,Fighter,12,(),(),90,30°,2 x 7.7mm mg,2 x 100lb bombs,2 x 20mm cannons
+Fi18,A6M2 Zero,37100.png,★★★★,Elite,Jp 1.png,Fighter,25,25(66),11.71s (10.27s),90,30°,2 x 7.7mm mg,2 x 100lb bombs,2 x 20mm cannons
+Fi19,F6F Hellcat,17300.png,★★★,Rare,Us 1.png,Fighter,12,(),(),90,30°,4 x 12.7mm Mg,2 x 500lb bombs,2 x 20mm cannons
+Fi20,F6F Hellcat,17300.png,★★★★,Elite,Us 1.png,Fighter,25,34 (79),11.75s (11.15s),90,30°,4 x 12.7mm Mg,2 x 500lb bombs,2 x 20mm cannons
+Fi21,F6F Hellcat,17300.png,★★★★★,Super Rare,Us 1.png,Fighter,45,37 (86),12.50s (10.90s),90,30°,4 x 12.7mm Mg,2 x 500lb bombs,2 x 20mm cannons
+Fi22,Seafang,27100.png,★★★,Rare,En 1.png,Fighter,12,(),(),90,30°,4 x 20mm Cannons,2 x 500lb Bombs,
+Fi23,Seafang,27100.png,★★★★,Elite,En 1.png,Fighter,25,30 (74),12.71s (10.86s),90,30°,4 x 20mm Cannons,2 x 500lb Bombs,
+Fi24,Seafang,27100.png,★★★★★,Super Rare,En 1.png,Fighter,45,33 (80),12.46s (10.60s),90,30°,4 x 20mm Cannons,2 x 500lb Bombs,
+Fi25,A6M5 Zero,37200.png,★★★,Rare,Jp 1.png,Fighter,12,(),(),90,30°,2 x 7mm mgs,2 x 100lb Bombs,2 x 20mm Cannons
+Fi26,A6M5 Zero,37200.png,★★★★,Elite,Jp 1.png,Fighter,25,26 (62),11.23s (9.42s),90,30°,2 x 7mm mgs,2 x 100lb Bombs,2 x 20mm Cannons
+Fi27,A6M5 Zero,37200.png,★★★★★,Super Rare,Jp 1.png,Fighter,45,28 (69),10.99s (9.18s),90,30°,2 x 7mm mgs,2 x 100lb Bombs,2 x 20mm Cannons

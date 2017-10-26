@@ -1,0 +1,46 @@
+﻿ID,Name,Image,Stars,Rarity,Nation,Firepower,AntiAir,DamageRound,RateOfFire,Ranges,Spread,Characteristic,Angle,AmmoType,Main
+CL1,Triple 152mm BL 6 inch Mk XXIII,22200.png,★★,Normal,En 1.png,5,0,8x6 (11x6),5.71s (),50,42°,Lock-on,120°,AP,CL
+CL2,Triple 152mm BL 6 inch Mk XXIII,22200.png,★★★,Rare,En 1.png,12,0,9x6 (15x6),5.43s (),50,42°,Lock-on,120°,AP,CL
+CL3,Triple 152mm BL 6 inch Mk XXIII,22200.png,★★★★,Elite,En 1.png,25,0,10x6 (22x6),5.18s (4.14s),50,42°,Lock-on,120°,AP,CL
+CL4,Triple 155mm 3rd Year Type,32200.png,★★★,Rare,Jp 1.png,12,0,6x6 (12x6),5.53s (),50,24°,Lock-on,120°,Normal,CL
+CL5,Triple 155mm 3rd Year Type,32200.png,★★★★,Elite,Jp 1.png,25,0,7x6 (17x6),5.32s (),50,24°,Lock-on,120°,HE,CL
+CL6,Triple 155mm 3rd Year Type,32200.png,★★★★★,Super Rare,Jp 1.png,45,0,8x6 (18x6),5.19s (4.12s),50,24°,Lock-on,120°,HE,CL
+CA1,"Triple 203mm 8""/55 caliber gun",13000.png,°,Normal,Us 1.png,5,0,22x3 (28x3),8.15s (),60,45°,Lock-on,40°,Normal,CA
+CA2,"Triple 203mm 8""/55 caliber gun",13000.png,★★,Normal,Us 1.png,5,0,24x3 (30x3),7.75s (),60,45★,Lock-on,40°,Normal,CA
+CA3,"Triple 203mm 8""/55 caliber gun",13000.png,★★★,Rare,Us 1.png,12,0,26x3 (39x3),7.37s (),60,45°,Lock-on,40°,HE,CA
+CA4,Twin 203mm 3rd Year Type,33000.png,★★,Normal,Jp 1.png,5,0,22x4 (28x4),9.38s (),55,15°,Lock-on,40°,Normal,CA
+CA5,Twin 203mm 3rd Year Type,33000.png,★★★,Rare,Jp 1.png,12,0,24x4 (36x4),8.99s (),55,15°,Lock-on,40°,HE,CA
+CA6,Twin 203mm 3rd Year Type,33000.png,★★★★,Elite,Jp 1.png,25,0,26x4 (46x4),8.85s (6.17s),55,15°,Lock-on,40°,HE,CA
+CA7,"Triple 203mm 8""/55 caliber gun",13100.png,★★,Normal,Us 1.png,5,0,24x3 (30x3),7.74s (),60,45°,Lock-on,40°,Normal,CA
+CA8,"Triple 203mm 8""/55 caliber gun",13100.png,★★★,Rare,Us 1.png,12,0,26x3 (40x3),7.37s (),60,45°,Lock-on,40°,HE,CA
+CA9,"Triple 203mm 8""/55 caliber gun",13100.png,★★★★,Elite,Us 1.png,25,0,28x3 (52x3),7.00s (5.59s),60,45°,Lock-on,40°,HE,CA
+CA10,Twin 203mm BL 8 inch Mk VIII,23000.png,★★,Normal,En 1.png,5,0,24x4 (30x4),9.78s (),55,15°,Lock-on,40°,Normal,CA
+CA11,Twin 203mm BL 8 inch Mk VIII,23000.png,★★★,Rare,En 1.png,12,0,26x4 (38x4),9.36s (),55,15°,Lock-on,40°,AP,CA
+CA12,Twin 203mm BL 8 inch Mk VIII,23000.png,★★★★,Elite,En 1.png,25,0,28x4 (48x4),9.22s (),55,15°,Lock-on,40°,AP,CA
+CA13,Twin 203mm SK C/34,43000.png,★★★,Rare,De 1.png,12,0,25x6 (37x6),10.31s (),55,15°,Lock-on,40°,AP,CA
+CA14,Twin 203mm SK C/34,43000.png,★★★★,Elite,De 1.png,25,0,27x6 (47x6),10.11s (),55,15°,Lock-on,40°,AP,CA
+CA15,Twin 203mm SK C/34,43000.png,★★★★★,Elite,De 1.png,45,0,30x6 (50x6),9.98s (7.65s),55,15°,Lock-on,40°,AP,CA
+BB1,Twin 356mm 41st Year Type,34000.png,★,Normal,Jp 1.png,0,0,38x2 (56x2),24.20s (),200,20°,,360°,Normal,BB
+BB2,Twin 356mm 41st Year Type,34000.png,★★,Normal,Jp 1.png,5,0,42x2 (62x2),23.04s (),200,20°,Fire,360°,HE,BB
+BB3,Twin 356mm 41st Year Type,34000.png,★★★,Rare,Jp 1.png,12,0,46x2 (88x2),21.89s (19.27s),200,20°,Fire,360°,HE,BB
+BB4,"Triple 356mm 14""/50 caliber gun",14100.png,★,Normal,Us 1.png,5,0,40x3 (56x3),32.73s (),200,22°,Fire,50°,Normal,BB
+BB5,"Triple 356mm 14""/50 caliber gun",14100.png,★★,Normal,Us 1.png,5,0,44x3 (61x3),31.17s (),200,22°,Fire,50°,HE,BB
+BB6,"Triple 356mm 14""/50 caliber gun",14100.png,★★★,Rare,Us 1.png,12,0,48x3 (84x3),29.61s (),200,22°,Fire,50°,HE,BB
+BB7,Twin 410mm 3rd Year Type,34100.png,★★,Normal,Jp 1.png,5,0,48x2 (72x2),27.65s (),200,20°,Spanning,50°,Normal,BB
+BB8,Twin 410mm 3rd Year Type,34100.png,★★★,Rare,Jp 1.png,12,0,53x2 (106x2),23.34s (),200,20°,Spanning,50°,HE,BB
+BB9,Twin 410mm 3rd Year Type,34100.png,★★★★,Elite,Jp 1.png,25,0,58x2 (154x2),25.02s (20.02s),200,20°,Spanning,50°,HE,BB
+BB10,"Triple 406mm 16""/45 caliber Mark 6",14300.png,★★,Normal,Us 1.png,5,0,50x3 (74x3),33.19s (),200,22°,Spanning,50°,Normal,BB
+BB11,"Triple 406mm 16""/45 caliber Mark 6",14300.png,★★★,Rare,Us 1.png,12,0,55x3 (108x3),31.60s (),200,22°,Spanning,50°,HE,BB
+BB12,"Triple 406mm 16""/45 caliber Mark 6",14300.png,★★★★,Elite,Us 1.png,25,0,60x3 (156x3),30.02s (24.02s),200,22°,Spanning,50°,HE,BB
+BB13,Twin 381mm BL 15 inch Mk I,24100.png,★★,Normal,En 1.png,5,0,46x2 (64x2),25.86s (),200,20°,Spanning,50°,Normal,BB
+BB14,Twin 381mm BL 15 inch Mk I,24100.png,★★★,Rare,En 1.png,12,0,51x2 (90x2),24.63s (),200,20°,Spanning,50°,AP,BB
+BB15,Twin 381mm BL 15 inch Mk I,24100.png,★★★★,Elite,En 1.png,25,0,56x2 (128x2),23.39s (18.72s),200,20°,Spanning,50°,AP,BB
+BB16,"Twin 406mm 16""/45 caliber Mark 5",14200.png,★★,Normal,Us 1.png,5,0,48x2 (72x2),25.94s (),200,20°,Spanning,50°,Normal,BB
+BB17,"Twin 406mm 16""/45 caliber Mark 5",14200.png,★★★,Rare,Us 1.png,12,0,53x2 (106x2),25.41s (),200,20°,Spanning,50°,AP,BB
+BB18,"Twin 406mm 16""/45 caliber Mark 5",14200.png,★★★★,Elite,Us 1.png,25,0,58x2 (154x2),25.14s (21.15s),200,20°,Spanning,50°,AP,BB
+BB19,Triple 406mm BL 16 inch Mk I,24200.png,★★★,Rare,En 1.png,12,0,48x3 (96x3),33.19s (),200,22°,Spanning,50°,Normal,BB
+BB20,Triple 406mm BL 16 inch Mk I,24200.png,★★★★,Elite,En 1.png,25,0,53x3 (141x3),31.60s (),200,22°,Spanning,50°,Normal,BB
+BB21,Triple 406mm BL 16 inch Mk I,24200.png,★★★★★,Elite,En 1.png,45,0,58x3 (154x3),30.02s (24.02s),200,22°,Spanning,50°,Normal,BB
+BB22,Quadruple 356mm BL 14 inch Mk VII,24000.png,★★★,Rare,En 1.png,12,0,40x4 (70x4),36.87s (),200,25°,Spanning,50°,Normal,BB
+BB23,Quadruple 356mm BL 14 inch Mk VII,24000.png,★★★★,Elite,En 1.png,25,0,44x4 (99x4),35.12s (),200,25°,Spanning,50°,HE,BB
+BB24,Quadruple 356mm BL 14 inch Mk VII,24000.png,★★★★★,Elite,En 1.png,45,0,48x4 (108x4),33.36s (29.19s),200,25°,Spanning,50°,HE,BB
