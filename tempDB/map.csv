@@ -1,0 +1,81 @@
+ID,Name,FleetLevel,Exp,BossShip,BossLocal,BossLv,BossReque,Start,drops
+1-1N,Offshore exercises,1,96,Hornet,G1,2,1,3,Craven|McCall|Crescent|Comet|Cygnet
+1-1H,Hard: Offshore exercises,21,,Hornet,G1,22,1,3,Craven|McCall|Crescent|Comet|Cygnet
+1-2N,,3,120,,E1,4,2,5,Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound
+1-2H,,23,,,E1,24,2,5,Cassin|Downes|Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound
+1-3N,Burning the harbor,5,132,,E1,6,2,5,Cassin|Downes|Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound
+1-3H,Hard:Burning the harbor,5,,,E1,26,2,5,Cassin|Downes|Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound
+1-4N,From the east of the fleet,8,156,Akagi+Kaga,G3,9,3,7,Cassin|Downes|Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound Omaha|Raleigh|Leander Renown|Repulse Long Island
+1-4H,Hard:From the east of the fleet,28,,Akagi+Kaga,G3,29,3,7,Cassin|Downes|Craven|McCall|Aulick|Foote|Spence|Comet|Crescent|Cygnet|Foxhound Omaha|Raleigh|Leander Renown|Repulse Long Island
+2-1N,Support Tula Island,11,180,Aoba,D4,12,2,10,Laffey|Javelin|Z23|Juno|Cassin|Downes|Craven|McCall|Comet|Crescent|Cygnet|Foxhound Omaha|Raleigh|Leander London|Pensacola Tennessee|California Bogue|Hermes
+2-1H,Hard:Support Tula Island,,,,,,,,
+2-2N,Dark clouds,14,198,Zuikaku,D1,15,3,12,Laffey|Javelin|Z23|Gridley|Cassin|Downes|Craven|McCall|Comet|Crescent|Cygnet Brooklyn|Omaha|Raleigh|Leander Pensacola Arizona|Pennsylvania|Nevada|Oklahoma Shouhou|Bogue|Hermes
+2-2H,Hard:Dark clouds,,,,,,,,
+2-3N,The first show of coral sea,17,216,Shouhou,E1,18,3,12,Laffey|Javelin|Z23|Gridley|Fletcher|Thatcher|Cassin|Downes|Aulick|Foote|Spence|Comet|Crescent|Cygnet Omaha|Raleigh|Leander Norfolk Nevada|Oklahoma|Nelson  Shouhou|Bogue|Hermes
+2-3H,Hard:The first show of coral sea,,,,,,,,
+2-4N,Rescue York City,20,234,Shoukaku,G1,21,3,12,Laffey|Javelin|Z23|Cassin|Downes|Craven|Aulick|Foote|Spence|Beagle|Bulldog|Foxhound Achilles|Ajax|Omaha|Raleigh|Leander Kent|Suffolk Rodney|Nevada|Oklahoma Shouhou|Bogue|Hermes Lexington
+2-4H,Hard:Rescue York City,,,,,,,,
+3-1N,Decisive midway,23,252,Kaga,F1|G2,24,3,12,Laffey|Javelin|Z23|Craven|McCall|Aulick|Foote|Spence|Beagle|Bulldog Arethusa|Galatea|Omaha|Raleigh|Leander Houston|Northampton|Chicago|Pensacola Nevada|Oklahoma  Long Island|Langley|Ranger Souryuu|Hiryuu
+3-1H,Hard:Decisive midway,,,,,,,,
+3-2N,Five minutes of fate,26,270,Akagi,H1,27,3,12,Charles Ausburne|Laffey|Javelin|Z23|Sims|Hammann|Fortune|Cassin|Downes|Craven|McCall|Foxhound Arethusa|Galatea|Omaha|Raleigh|Leander|K?nigsberg|Karlsruhe|K?ln  Nevada|Oklahoma Langley|Ranger Souryuu|Hiryuu
+3-2H,Hard:Five minutes of fate,,,,,,,,
+3-3N,A war of water,29,288,Souryuu,A4,30,3,12,Laffey|Javelin|Z23|Fortune|Shiratsuyu|Kagerou|Cassin|Downes|Aulick|Foote|Spence|Beagle|Bulldog Achilles|Ajax|Omaha|Raleigh Indianapolis|Furutaka|Kako Nevada|Oklahoma Langley|Ranger  Souryuu|Hiryuu
+3-3H,Hard:A war of water,,,,,,,,
+3-4N,The last counterattack,32,306,Hiryuu,H3|H4,33,3,12,Laffey|Javelin|Z23|Fletcher|Thatcher|Juno|Kagerou|Cassin|Downes|Aulick|Foote|Spence|Beagle|Bulldog|Foxhound K?nigsberg|Karlsruhe|K?ln Houston|Portland Nevada|Oklahoma Langley|Ranger  Akagi|Kaga|Yorktown
+3-4H,Hard:The last counterattack,,,,,,,,
+4-1N,Midnight Cry,35,323,Aoba,C4|B6,36,3,15,Charles Ausburne|Laffey|Javelin|Z23|Sims|Hammann|Beagle|Bulldog|Foxhound|Shiranui  Brooklyn|Phoenix|Omaha|Raleigh|Leander|K?nigsberg|Karlsruhe|K?ln Portland Nevada|Oklahoma Bogue|Ranger|Hermes Saratoga
+4-1H,Hard:Midnight Cry,,,,,,,,
+4-2N,Bloody dawn,38,342,Furutaka,D6|F4,39,3,15,Laffey|Javelin|Shigure|Z23|Thatcher|Aulick|Foote|Spence|Beagle|Bulldog|Foxhound|Shiranui Leander|K?nigsberg|Karlsruhe|K?ln London|Shropshire|Norfolk|Pensacola Tennessee|California Bogue|Langley|Hermes
+4-2H,Hard:Bloody dawn,,,,,,,,
+4-3N,East Solomon's encounter,41,360,Ryuujou,C4|F3|G1,42,3,15,Laffey|Javelin|Z23|Shiratsuyu|Kagerou|Cassin|Downes|Beagle|Bulldog|Foxhound|Shiranui Omaha|Raleigh|Leander  Portland|Kent|Suffolk|Pensacola Nevada|Oklahoma Erebus|Terror  Langley|Ranger|Hermes
+4-3H,Hard:East Solomon's encounter,,,,,,,,
+4-4N,Revenge of the war,44,378,Shoukaku,C1|A6,45,4,18,
+4-4H,Hard:Revenge of the war,,,,,,,,
+5-1N,Material interception war,47,396,Myoukou,H2|H4|A6|A1,48,4,18,Laffey|Javelin|Z1|Z23|Amazon|Comet|Crescent|Cygnet Helena|Brooklyn|Phoenix|Omaha|Raleigh|K?nigsberg|Karlsruhe|K?ln Myoukou|Pensacola|Pennsylvania|Nevada|Oklahoma Long Island|Bogue|Langley|Ranger|Hermes
+5-1H,Hard:Material interception war,,,,,,,,
+5-2N,Santa Cruz's sky,50,414,,E1|E3|G3,51,4,18,Laffey|Glowworm|Javelin|Z23|Aulick|Foote|Spence|Beagle|Bulldog  Atlanta|Juneau|K?nigsberg|Karlsruhe|K?ln Shropshire|Pensacola Queen Elizabeth|Tennessee|California|Nevada|Oklahoma  Bogue|Langley|Ranger|Hermes
+5-2H,Hard:Santa Cruz's sky,,,,,,,,
+5-3N,The fall of the Hornets,53,423,Shoukaku,F1|B1|E4,54,4,18,Laffey|Javelin|Z23|Fortune|Juno|Comet|Crescent|Cygnet Cleveland|Achilles|Ajax|K?nigsberg|Karlsruhe|K?ln Pensacola|Furutaka|Kako Nevada|Oklahoma Repulse Bogue|Langley|Ranger|Hermes  Hornet
+5-3H,Hard:The fall of the Hornets,,,,,,,,
+5-4N,Withdraw from the theater,56,540,Zuikaku,B4|E5|E1|H5|H1,57,4,20,Laffey|Javelin|Z23|Amazon|Beagle|Bulldog|Comet|Crescent|Cygnet Brooklyn|Phoenix|K?nigsberg|Karlsruhe|K?ln Portland|Shropshire|Pensacola  Nelson|Rodney|Nevada|Oklahoma Unicorn|Bogue|Langley|Ranger|Hermes
+5-4H,Hard:Withdraw from the theater,,,,,,,,
+6-1N,,,,,,,,,
+6-1H,Hard:,,,,,,,,
+6-2N,,,,,,,,,
+6-2H,Hard:,,,,,,,,
+6-3N,,,,,,,,,
+6-3H,Hard:,,,,,,,,
+6-4N,,,,,,,,,
+6-4H,Hard:,,,,,,,,
+7-1N,,,,,,,,,
+7-1H,Hard:,,,,,,,,
+7-2N,,,,,,,,,
+7-2H,Hard:,,,,,,,,
+7-3N,,,,,,,,,
+7-3H,Hard:,,,,,,,,
+7-4N,,,,,,,,,
+7-4H,Hard:,,,,,,,,
+8-1N,,,,,,,,,
+8-1H,Hard:,,,,,,,,
+8-2N,,,,,,,,,
+8-2H,Hard:,,,,,,,,
+8-3N,,,,,,,,,
+8-3H,Hard:,,,,,,,,
+8-4N,,,,,,,,,
+8-4H,Hard:,,,,,,,,
+9-1N,,,,,,,,,
+9-1H,Hard:,,,,,,,,
+9-2N,,,,,,,,,
+9-2H,Hard:,,,,,,,,
+9-3N,,,,,,,,,
+9-3H,Hard:,,,,,,,,
+9-4N,,,,,,,,,
+9-4H,Hard:,,,,,,,,
+10-1N,,,,,,,,,
+10-1H,Hard:,,,,,,,,
+10-2N,,,,,,,,,
+10-2H,Hard:,,,,,,,,
+10-3N,,,,,,,,,
+10-3H,Hard:,,,,,,,,
+10-4N,,,,,,,,,
+10-4H,Hard:,,,,,,,,
