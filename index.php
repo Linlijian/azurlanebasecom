@@ -1,63 +1,88 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ooo";
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Azur lane basecom</title>
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+      <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">หน้าแรก</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ตัวละคร</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">แผนที่</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="#">อุปกรณ์</a>
+    </li>
+  </ul>
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+  <div class="alert alert-primary" role="alert">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-primary" role="alert">
+          <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=50%>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+  <div class="alert alert-secondary" role="alert">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-secondary" role="alert">
 
-$sql = "SELECT id,eff FROM Skill where id=1";
-$result = $conn->query($sql);
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
+  <div class="alert alert-danger" role="alert">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-danger" role="alert">
 
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
+  <div class="alert alert-warning" role="alert">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-warning" role="alert">
 
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
+<div class="card border-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-primary">
+    <h4 class="card-title">Primary card title</h4>
+    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
+</div>
 
-if ($result->num_rows > 0) {
- while($row = $result->fetch_assoc()){
-       echo "id: " .$row["id"]."eff: " . $row["eff"]. "<br>";
-    }
-
-} else {
-    echo "0 results";
-}
-
-
-
-
-$sql = "SELECT picture FROM charecter where id=1";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
- while($row = $result->fetch_assoc()){
-        $pic=$row["picture"];
-    }
-
-} else {
-    echo "0 results";
-}
-echo "NULL,".$i." 'ch'".$i.".png";
-//NULL, '6', 'ch6.png', 'ch6', 'ch6', 'ch6', 'ch6', 'ch6', 'ch6'), (NULL, '7', 'ch7.png', 'ch7', 'ch7', 'ch7', 'ch7', 'ch7', 'ch7');
-echo "NSERT INTO `charecter` (`id`, `charectorID`, `picture`, `status`, `beginStatus`, `skill`, `introduce`, `reModel`, `cusTom`) VALUES (";
-$i = 8;
-while($i!=311){
-echo "NULL,'".$i."'"." ,'ch".$i.".png'".",'ch".$i."'".",'ch".$i."'".",'ch".$i."'".",'ch".$i."'".",'ch".$i."'".",'ch".$i."'),".'<br>(';
-$i++;
-}
-
-
-
-
-
-
-?>
-
-<img src="img/sub-<?php echo $pic;?>">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
