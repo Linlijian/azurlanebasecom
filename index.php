@@ -35,16 +35,30 @@
                 <li class="list-group-item">
                   <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
                 </li>
+                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
+                <img src="img/wh.png" class="img-fluid rounded" alt="" width=55%>
+                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
                 <li class="list-group-item">
- 
+                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
                 </li>
- 
               </div>
               <div class="col-md">
                 <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
               </div>
               <div class="col-4">
-
+              <li class="list-group-item">
+                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                </li>
+                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
+                <img src="img/wh.png" class="img-fluid rounded" alt="" width=55%>
+                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
+                <li class="list-group-item">
+                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                </li>
+                <img src="img/cc.png" class="img-fluid rounded" alt="" width=55%>
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Single toggle
+</button>
               </div>
             </div>
           </div>
