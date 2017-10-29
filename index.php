@@ -22,14 +22,32 @@
       <a class="nav-link " href="#">อุปกรณ์</a>
     </li>
   </ul>
-
+<!-- <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=50%> -->
+  <!-- <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%> -->
   <div class="alert alert-primary" role="alert">
   <div class="container">
     <div class="row">
       <div class="col">
         <div class="alert alert-primary" role="alert">
-          <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=50%>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <li class="list-group-item">
+                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                </li>
+                <li class="list-group-item">
+ 
+                </li>
+ 
+              </div>
+              <div class="col-md">
+                <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
+              </div>
+              <div class="col-4">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
