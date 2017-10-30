@@ -79,13 +79,12 @@
                     if ($result->num_rows > 0){
                         while($row = $result->fetch_assoc()){
                             // if ( $row["id"] % 4 != 0){
-                                 echo '<div class="col-3 ">';
+                                 echo '<div class="col-3">';
                                  echo '<div class="card border-success mb-3" style="max-width: 20rem;">';
-                                 echo '<div class="card-header">Header</div>';
-                                 echo $r = $row["pic"];
-                                 echo '<img class="img-fluid rounded" src="'."../img/charecter/".$r.'"  />' ;
+                                 echo '<div class="card-header">'."No. ".$row["cid"]."  ".$row["cn"].'</div>';
                                  echo '<ul class="list-group list-group-flush">';
-                                 echo '<li class="list-group-item">'."pic".'</li>';
+                                 echo '<li class="list-group-item">'.'<img class="img-fluid rounded " src="'."../img/charecter/".$row["pic"].'"  />'.'</li>';
+                                //  echo '<li class="list-group-item">'."AAAAA".'</li>';
                                  echo '</ul></div></div>';
                             // }
                         }
@@ -94,7 +93,7 @@
             </div>
         </div>
 
-
+        
 
 
     <!-- Optional JavaScript -->
