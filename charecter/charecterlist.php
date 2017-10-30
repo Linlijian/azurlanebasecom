@@ -2,10 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Azur lane basecom - Charecter List</title>
+    <title>Azur lane basecom - Charecter</title>
     <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <?php include '../connectdb.php'?>
+    <?php
+        // $servername = "localhost";
+        // $username = "root";
+        // $password = "";
+        // $dbname = "azurlanebasecom";
+        
+        // // Create connection
+        // $conn = new mysqli($servername, $username, $password, $dbname);
+        // // Check connection
+        // if ($conn->connect_error) {
+        //     die("Connection failed: " . $conn->connect_error);
+        // } 
+    ?>
   </head>
   <body>
       <ul class="nav justify-content-end">
@@ -23,8 +37,63 @@
     </li>
   </ul>
 
-  
+    <!-- <div class="container">
+        <div class="row"> -->
+            <!-- <div class="col-3">
+            <div class="card border-success mb-3" style="max-width: 20rem;"> -->
+            <?php
+                // $sql = "SELECT id,picture FROM `charecter` ";
+                // $result = $conn->query($sql);
+                // if ($result->num_rows > 0){
+                //     while($row = $result->fetch_assoc()){
+                        
+                //         if ( $row["id"] % 4 == 0){
+                //             echo '<div class="container">';
+                //             echo '<div class="row">';
+                //         }
+                //         echo '<div class="col-3">';
+                //         echo '<div class="card border-success mb-3" style="max-width: 20rem;">';
+                //         echo '<div class="card-header">Header</div>';
+                //         echo $r = $row["picture"];
+                //         echo '<img class="img-fluid" src="'."../img/charecter/".$r.'"' ;
+                //         echo '<ul class="list-group list-group-flush">';
+                //         echo '<li class="list-group-item">'."pic".'</li>';
+                //         echo '</ul>';
 
+                //     } 
+                // }
+            ?>
+                <!-- <img src="<?php echo "../img/charecter/".$r;?>" alt=""> -->
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container">
+            <div class="row">
+                <?php
+                    $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic
+                    FROM `charecter`
+                    INNER JOIN detail ON detail.charecterID  = charecter.charectorID";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0){
+                        while($row = $result->fetch_assoc()){
+                            // if ( $row["id"] % 4 != 0){
+                                 echo '<div class="col-3">';
+                                 echo '<div class="card border-success mb-3" style="max-width: 20rem;">';
+                                 echo '<div class="card-header">'."No. ".$row["cid"]."  ".$row["cn"].'</div>';
+                                 echo '<ul class="list-group list-group-flush">';
+                                 echo '<li class="list-group-item">'.'<img class="img-fluid rounded " src="'."../img/charecter/".$row["pic"].'"  />'.'</li>';
+                                //  echo '<li class="list-group-item">'."AAAAA".'</li>';
+                                 echo '</ul></div></div>';
+                            // }
+                        }
+                    }
+                ?>
+            </div>
+        </div>
+
+        
 
 
     <!-- Optional JavaScript -->
