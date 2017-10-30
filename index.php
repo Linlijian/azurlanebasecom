@@ -25,40 +25,42 @@
 <!-- <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=50%> -->
   <!-- <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%> -->
   <div class="alert alert-primary" role="alert">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="alert alert-primary" role="alert">
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <h2>Name:</h2>
+                  <li class="list-group-item">
+                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                  </li>
+                  <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
+                  <img src="img/tools/wh.png" class="img-fluid rounded" alt="" width=55%>
+                  <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
+                  <li class="list-group-item">
+                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                  </li>
+                </div>
+                <div class="col-md">
+                  <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
+                </div>
+                <div class="col-4">
                 <li class="list-group-item">
-                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
-                </li>
-                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
-                <img src="img/wh.png" class="img-fluid rounded" alt="" width=55%>
-                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
-                <li class="list-group-item">
-                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
-                </li>
-              </div>
-              <div class="col-md">
-                <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
-              </div>
-              <div class="col-4">
-              <li class="list-group-item">
-                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
-                </li>
-                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
-                <img src="img/wh.png" class="img-fluid rounded" alt="" width=55%>
-                <img src="img/c.png" class="img-fluid rounded" alt="" width=20%>
-                <li class="list-group-item">
-                  <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
-                </li>
-                <img src="img/cc.png" class="img-fluid rounded" alt="" width=55%>
-                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-  Single toggle
-</button>
+                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                  </li>
+                    <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
+                    <img src="img/tools/wh.png" class="img-fluid rounded" alt="" width=55%>
+                    <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
+                  <li class="list-group-item">
+                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                  </li>
+                  <img src="img/tools/whk.png" class="img-fluid rounded" alt="" width=30%>
+                  <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Single toggle
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -66,26 +68,95 @@
       </div>
     </div>
   </div>
-  </div>
 
   <div class="alert alert-secondary" role="alert">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="alert alert-secondary" role="alert">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">
+                      <img src="img/weapon/500.png" class="img-fluid rounded mx-auto d-block" alt="" width>
+                    </div>
+                    <div class="card-body text-secondary">
+                       <h4 class="card-title">Name</h4>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Header</div>
+                      <div class="card-body text-secondary">
+                        <h4 class="card-title">Secondary card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Header</div>
+                      <div class="card-body text-secondary">
+                        <h4 class="card-title">Secondary card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col">
+                 <img src="img/tools/SD_weapon1.png" class="img-fluid rounded mx-auto d-block" alt="" width=30%>
+                 <button type="button" class="btn btn-secondary btn-lg float-right ">Large button</button>
+                </div>
+              </div>
+            </div> 
 
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
 
   <div class="alert alert-danger" role="alert">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="alert alert-danger" role="alert">
-
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-danger" role="alert">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card border-primary mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body text-primary">
+                    <h4 class="card-title">Primary card title</h4>
+                    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                  <div class="card border-primary mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body text-primary">
+                    <h4 class="card-title">Primary card title</h4>
+                    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                  <div class="card border-primary mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body text-primary">
+                    <h4 class="card-title">Primary card title</h4>
+                    <button type="button" class="btn btn-secondary btn-lg float-right ">Large button</button>
+                  </div>
+                </div>
+                <img src="img/tools/weapon_mainC.png" class="img-fluid" alt="Responsive image" width=100%>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -97,19 +168,31 @@
     <div class="row">
       <div class="col">
         <div class="alert alert-warning" role="alert">
-
+          <img src="img/tools/service.png" class="img-fluid" alt="Responsive image" width=>
+          <img src="img/tools/Raid.png" class="img-fluid" alt="Responsive image" width=>
+          <img src="img/tools/Commission.png" class="img-fluid" alt="Responsive image" width=>
+          <img src="img/tools/Exercise.png" class="img-fluid" alt="Responsive image" width=>
         </div>
       </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <img src="img/tools/task.png" class="img-fluid" alt="Responsive image" width=>
+            <img src="img/tools/Building.png" class="img-fluid" alt="Responsive image" width=>
+            <img src="img/tools/Fleet.png" class="img-fluid" alt="Responsive image" width=><br><br><br>
+            <img src="img/tools/Backyard.png" class="img-fluid" alt="Responsive image" width=>
+            <img src="img/tools/Academy.png" class="img-fluid" alt="Responsive image" width=>
+            <img src="img/tools/Equipment.png" class="img-fluid" alt="Responsive image" width=><br><br><br>
+            <center><button type="button" class="btn btn-secondary btn-lg ">Large button</button></center>
+            <img src="img/tools/twofox.png" class="img-fluid" alt="Responsive image" width=><br><br><br>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
   </div>
 
-<div class="card border-primary mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body text-primary">
-    <h4 class="card-title">Primary card title</h4>
-    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
-</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
