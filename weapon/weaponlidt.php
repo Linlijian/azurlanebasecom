@@ -49,10 +49,8 @@
   </thead>
   <tbody>
     <?php
-  
          $sql = "SELECT * FROM `equipment` ORDER BY `Icon` ASC";
          $result = $conn->query($sql);
-         
          if ($result->num_rows > 0){
             while($row = $result->fetch_assoc()){
               if ($row['Stars'] == '★★★'){
@@ -64,7 +62,6 @@
               }else{
                 echo '<tr class="table-active ">';
               }
-              
               echo '<td scope="col">'.$row['ID'].'</td>';
               echo '<td scope="col">'.$row['Name'].'</td>';
               echo '<td scope="col">'.'<img src ="../img/weapon/'.$row['Icon'].'" />'.'</td>';
@@ -79,16 +76,13 @@
               echo '<td scope="col">'.$row['Evasion'].'</td>';
               echo '<td scope="col">'.$row['Acc'].'</td>';
               echo '<td scope="col">'.$row['Spd'].'</td>';
-               echo '<td scope="col">'.$row['Notes'].'</td>';
-               echo '</tr>';
+              echo '<td scope="col">'.$row['Notes'].'</td>';
+              echo '</tr>';
                
             }
         }
     ?>
-
-
 </div>
-
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
