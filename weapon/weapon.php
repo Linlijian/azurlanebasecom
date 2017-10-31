@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <?php include '../connectdb.php'?>
     </head>
+
+    <style type="text/css">
+        body {
+        overflow:hidden;
+        }
+    </style>
+
   <body>
       <ul class="nav justify-content-end">
     <li class="nav-item">
@@ -27,8 +34,21 @@
 
 
   <div class="jumbotron">
+    <div class="row">
+        <div class="col-4">
+            <img class="img-fluid" src="../img/tools/one.png" alt="">
+            <img class="img-fluid" src="../img/tools/BB.png" alt="">
+        </div>
+        <div class="col-4">
+            <img class="img-fluid" src="../img/tools/SD_weapon1.png" alt="">
+            <img class="img-fluid" src="../img/tools/CA.png" alt="">
+        </div>
+        <div class="col-4">
+        <img class="img-fluid" src="../img/tools/tree.png" alt="">
+        <img class="img-fluid" src="../img/tools/CL.png" alt="">
+        </div>
+    </div>
 
-  
   </div>
 
 
