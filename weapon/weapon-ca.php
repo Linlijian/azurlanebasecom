@@ -3,27 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <title>Azur lane basecom - Charecter</title>
+    <title>Azur lane basecom - Weapon CA</title>
     <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <?php include '../connectdb.php'?>
     </head>
   <body>
-      <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">หน้าแรก</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">ตัวละคร</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">แผนที่</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " href="#">อุปกรณ์</a>
-    </li>
-  </ul>
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.php">หน้าแรก</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../charecter/charecterlist.php">ตัวละคร</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">แผนที่</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="../weapon/weapon.php">อุปกรณ์</a>
+  </li>
+</ul>
 
 <!-- <div class="container"> -->
   <caption><h1>CA - Gun</h1></caption>

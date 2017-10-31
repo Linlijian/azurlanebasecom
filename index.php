@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-      <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">หน้าแรก</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">ตัวละคร</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">แผนที่</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " href="#">อุปกรณ์</a>
-    </li>
-  </ul>
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.php">หน้าแรก</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="charecter/charecterlist.php">ตัวละคร</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">แผนที่</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="weapon/weapon.php">อุปกรณ์</a>
+  </li>
+</ul>
 <!-- <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=50%> -->
   <!-- <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%> -->
   <div class="alert alert-primary" role="alert">
