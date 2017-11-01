@@ -31,10 +31,10 @@
             <!-- <form action="map.php" method="POST"> -->
                 <ul class="nav nav-pills">
                 <li class="nav-item">
-                <a class="nav-link disabled" href="#">Map</a>
+                <a class="nav-link disabled" href="map.php">Map</a>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 1</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-1.php" role="button" aria-haspopup="true" aria-expanded="false">State 1</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary " href="#1-1N">State 1-1</a>
                     <a    class="dropdown-item alert-primary " href="#1-2N">State 1-2</a>
@@ -48,7 +48,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 2</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-2.php" role="button" aria-haspopup="true" aria-expanded="false">State 2</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 2-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 2-2</a>
@@ -62,7 +62,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 3</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-3.php" role="button" aria-haspopup="true" aria-expanded="false">State 3</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 3-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 3-2</a>
@@ -76,7 +76,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 4</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-4.php" role="button" aria-haspopup="true" aria-expanded="false">State 4</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 4-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 4-2</a>
@@ -90,7 +90,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 5</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-5.php" role="button" aria-haspopup="true" aria-expanded="false">State 5</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 5-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 5-2</a>
@@ -104,7 +104,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 6</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-6.php" role="button" aria-haspopup="true" aria-expanded="false">State 6</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 6-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 6-2</a>
@@ -118,7 +118,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 7</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-7.php" role="button" aria-haspopup="true" aria-expanded="false">State 7</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 7-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 7-2</a>
@@ -132,7 +132,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 8</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-8.php" role="button" aria-haspopup="true" aria-expanded="false">State 8</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 8-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 8-2</a>
@@ -146,7 +146,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 9</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-9.php" role="button" aria-haspopup="true" aria-expanded="false">State 9</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 9-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 9-2</a>
@@ -160,7 +160,7 @@
                 </div>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">State 10</a>
+                <a class="nav-link dropdown" data-toggle="" href="map-10.php" role="button" aria-haspopup="false" aria-expanded="false">State 10</a>
                 <div class="dropdown-menu  alert-success">
                     <a    class="dropdown-item alert-primary disabled" href="#">State 10-1</a>
                     <a    class="dropdown-item alert-primary disabled" href="#">State 10-2</a>
