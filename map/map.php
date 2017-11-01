@@ -36,141 +36,141 @@
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 1</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 1-ๅ</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 1-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 1-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 1-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 1-ๅ</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 1-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 1-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 1-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 1-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 1-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 1-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 1-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 1-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 1-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 1-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 1-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 2</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 2-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 2-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 2-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 2-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 2-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 2-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 2-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 2-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 2-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 2-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 2-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 2-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 2-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 2-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 2-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 2-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 3</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 3-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 3-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 3-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 3-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 3-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 3-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 3-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 3-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 3-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 3-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 3-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 3-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 3-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 3-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 3-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 3-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 4</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 4-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 4-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 4-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 4-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 4-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 4-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 4-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 4-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 4-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 4-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 4-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 4-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 4-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 4-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 4-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 4-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 5</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 5-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 5-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 5-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 5-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 5-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 5-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 5-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 5-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 5-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 5-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 5-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 5-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 5-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 5-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 5-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 5-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 6</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 6-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 6-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 6-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 6-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 6-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 6-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 6-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 6-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 6-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 6-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 6-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 6-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 6-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 6-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 6-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 6-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 7</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 7-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 7-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 7-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 7-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 7-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 7-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 7-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 7-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 7-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 7-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 7-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 7-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 7-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 7-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 7-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 7-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 8</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 8-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 8-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 8-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 8-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 8-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 8-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 8-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 8-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 8-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 8-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 8-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 8-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 8-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 8-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 8-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 8-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">State 9</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 9-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 9-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 9-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 9-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 9-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 9-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 9-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 9-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 9-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 9-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 9-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 9-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 9-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 9-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 9-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 9-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">State 10</a>
                 <div class="dropdown-menu  alert-success">
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 10-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 10-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 10-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-primary" href="#">State 10-4</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 10-1</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 10-2</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 10-3</a>
+                    <a    class="dropdown-item alert-primary" href="#">State 10-4</a>
                     <div class="dropdown-divider"></div>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 10-1</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 10-2</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 10-3</a>
-                    <a  data-toggle="modal" data-target="#exampleModalLong" class="dropdown-item alert-danger" href="#">State 10-4</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 10-1</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 10-2</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 10-3</a>
+                    <a    class="dropdown-item alert-danger" href="#">State 10-4</a>
                 </div>
                 </li>
             </ul>
@@ -185,9 +185,10 @@
                 <?php
                     $sql = "SELECT * FROM `location` WHERE a = '1' and b = 'n' ORDER BY a";
                     $r = $conn->query($sql);
-                    // $i = 0;
+                     $i = 0;
                     // $j = 0;
-                    // $drop[40][40];
+                    //  $drop[];
+                    $i = 0;
                     if ($r->num_rows > 0){
                         while ($row = $r->fetch_assoc()){
                             echo '<div class=""><h2>'.$row['ID']." ".$row['Name'].'</h2></div>';
@@ -199,7 +200,7 @@
                             echo '<table class="table">';
                             echo '<th scope="col"></th>';
                             echo '<div class="col alert-warning"><h4>จำนวนเรือทั้งหมด (ไม่รวมบอส)'." ".$row['FleetLevel']." "."ลำ".'</h4></div>';
-                            echo '<div class="col alert-danger"><h4>ค่าประสบการณ์ขั้นต่ำ '.$row['Exp'].'</h4></div>';
+                            echo '<div class="col alert-danger"><h4>ค่าประสบการณ์ขั้นต่ำ '.$row['Exp']." ".'<a  data-toggle="modal" data-target="#exampleModalLong"  class="alert-danger" href="#">'."เรือดรอป".'</a></h4></div>';
                             echo '<div class="col alert-danger"><h4>เรือบอส'." ".$row['BossShip']." "."มักเกิดที่"." ".$row['BossLocal'].'</h4></div>';
                             echo '<div class="col alert-danger"><h4>'."บอสเลเวล"." ".$row['BossLv']." "."เงื่อนไขเจอบอสจมเรือ"." ".$row['BossReque']." "."ลำ".'</h4></div>';
                             echo '<div class="col alert-warning"><h4>'."เงื่อนไขครบ 3 ดาว".'</h4></div>';
@@ -209,12 +210,7 @@
                             echo '</table>';
                             echo '</div>';
                             echo '</div>';
-                            // $id = $row['ID'];
-                            // $t = $row['Drops'];
-                            // $drop[$j][$i] = "1";
-                            // $i++;
-                            // $j++;
-                            // // echo "id=>"." ".$id."|".$drop[$id][$j++];
+                            $list[$row['ID']] = $row['drops'] ;
                         }
                     }
                 ?>
@@ -222,6 +218,13 @@
         </div>
     </div>
 </div>
+<?php
+    function drops($id){
+        echo $id;
+    }
+?>
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -234,7 +237,8 @@
         </button>
       </div>
       <div class="modal-body">
-        
+      <?php echo $list['1-4N'];?>
+
       </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
