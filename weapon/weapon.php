@@ -12,7 +12,7 @@
 
     <style type="text/css">
         body {
-        overflow:hidden;
+        /* overflow:hidden; */
         }
     </style>
 
@@ -33,19 +33,33 @@
   </ul>
 
 
-  <div class="jumbotron">
+        <div class="alert-danger">
+            <div calss="row">
+              <div class="col">
+              <ul class="nav justify-content-end">
+                <a class="nav-link " href="weapon-antiairguns.php"> <img class="img-fluid" src="../img/weapon/AntiAir.png" alt="">   ต้านอากาศ</a>
+                <a class="nav-link "href="weapon-fighters.php"> <img class="img-fluid" src="../img/weapon/Aviation.png" alt="">   เครื่องบิน</a>
+                <a class="nav-link "href="weapon.php"> <img class="img-fluid" src="../img/weapon/Firepower.png" alt="">   อาวุธปืน</a>
+                <a class="nav-link "href="weapon-equiment.php"> <img class="img-fluid" src="../img/weapon/Armor.png" alt="">   อุปกรณ์เสริม</a>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+
+  <div class="jumbotron alert-info">
     <div class="row">
-        <div class="col-4">
+        <div class="col-4"><a href="weapon-bb.php">
             <img class="img-fluid" src="../img/tools/one.png" alt="">
-            <img class="img-fluid" src="../img/tools/BB.png" alt="">
+            <img class="img-fluid" src="../img/tools/BB.png" alt=""></a>
         </div>
-        <div class="col-4">
+        <div class="col-4"><a href="weapon-ca.php">
             <img class="img-fluid" src="../img/tools/SD_weapon1.png" alt="">
-            <img class="img-fluid" src="../img/tools/CA.png" alt="">
+            <img class="img-fluid" src="../img/tools/CA.png" alt=""></a>
         </div>
-        <div class="col-4">
+        <div class="col-4"><a href="weapon-cl.php">
         <img class="img-fluid" src="../img/tools/tree.png" alt="">
-        <img class="img-fluid" src="../img/tools/CL.png" alt="">
+        <img class="img-fluid" src="../img/tools/CL.png" alt=""></a>
         </div>
     </div>
 

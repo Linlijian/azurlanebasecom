@@ -25,7 +25,7 @@
   </li>
 </ul>
 
-<div class="container">
+<!-- <div class="container"> -->
   <caption><h1>Antiairguns</h1></caption>
   <table class="table ">
   <thead class="thead-dark ">
