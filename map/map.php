@@ -36,15 +36,15 @@
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown" data-toggle="" href="map-1.php" role="button" aria-haspopup="true" aria-expanded="false">State 1</a>
                 <div class="dropdown-menu  alert-success">
-                    <a    class="dropdown-item alert-primary " href="#1-1N">State 1-1</a>
-                    <a    class="dropdown-item alert-primary " href="#1-2N">State 1-2</a>
-                    <a    class="dropdown-item alert-primary " href="#1-3N">State 1-3</a>
-                    <a    class="dropdown-item alert-primary " href="#1-4N">State 1-4</a>
+                    <a    class="dropdown-item alert-primary disabled" href="#1-1N">State 1-1</a>
+                    <a    class="dropdown-item alert-primary disabled" href="#1-2N">State 1-2</a>
+                    <a    class="dropdown-item alert-primary disabled" href="#1-3N">State 1-3</a>
+                    <a    class="dropdown-item alert-primary disabled" href="#1-4N">State 1-4</a>
                     <div class="dropdown-divider"></div>
-                    <a    class="dropdown-item alert-danger " href="#1-1H">State 1-1</a>
-                    <a    class="dropdown-item alert-danger " href="#1-2H">State 1-2</a>
-                    <a    class="dropdown-item alert-danger " href="#1-3H">State 1-3</a>
-                    <a    class="dropdown-item alert-danger " href="#1-4H">State 1-4</a>
+                    <a    class="dropdown-item alert-danger disabled" href="#1-1H">State 1-1</a>
+                    <a    class="dropdown-item alert-danger disabled" href="#1-2H">State 1-2</a>
+                    <a    class="dropdown-item alert-danger disabled" href="#1-3H">State 1-3</a>
+                    <a    class="dropdown-item alert-danger disabled" href="#1-4H">State 1-4</a>
                 </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -180,197 +180,11 @@
 </div>
 </div>
 
-<div class="alert alert-info" role="alert">
-    <div class = "container">
-                <?php
-                    $sql = "SELECT * FROM `location` WHERE a = '1' ORDER BY a";
-                    $r = $conn->query($sql);
-                     $i = 0;
-                    // $j = 0;
-                    //  $drop[];
-                    $i = 0;
-                    if ($r->num_rows > 0){
-                        while ($row = $r->fetch_assoc()){
-                            echo '<div id="'.$row['ID'].'"class=""><h2>'.$row['ID']." ".$row['Name'].'</h2></div>';
-                            echo '<div class="row">';
-                            echo '<div class = "col-6">';
-                            echo '<img class ="img-fluid" src = "../img/map/'.$row['ID'].'.png" />';
-                            echo '</div>';
-                            echo '<div id=""class = "col-6">';
-                            echo '<table class="table">';
-                            echo '<th scope="col"></th>';
-                            echo '<div class="col alert-warning"><h4>จำนวนเรือทั้งหมด (ไม่รวมบอส)'." ".$row['FleetLevel']." "."ลำ".'</h4></div>';
-                            echo '<div class="col alert-danger"><h4>ค่าประสบการณ์ขั้นต่ำ '.$row['Exp']." ".'<a  data-toggle="modal" data-target="#'.$i++.'"class="alert-danger" href="#">'." "."เรือดรอป".'</a></h4></div>';
-                            echo '<div class="col alert-danger"><h4>เรือบอส'." ".$row['BossShip']." "."มักเกิดที่"." ".$row['BossLocal'].'</h4></div>';
-                            echo '<div class="col alert-danger"><h4>'."บอสเลเวล"." ".$row['BossLv']." "."เงื่อนไขเจอบอสจมเรือ"." ".$row['BossReque']." "."ลำ".'</h4></div>';
-                            echo '<div class="col alert-warning"><h4>'."เงื่อนไขครบ 3 ดาว".'</h4></div>';
-                            echo '<div class="col align-self-center alert-warning"><ul><h4>'.''."★ จมเรือบอส".'</h4></ul></div>';
-                            echo '<div class="col align-self-center alert-warning"><ul><h4>'.''."★ จมเรือจำนวน"." ".$row['Start'].'</h4></ul></div>';
-                            echo '<div class="col align-self-center alert-warning"><ul><h4>'.''."★ จมเรือทั้งหมดในแผนที่".'</h4></ul></div>';
-                            echo '</table>';
-                            echo '</div>';
-                            echo '</div>';
-                            $list[$row['ID']] = $row['drops'] ;
-                            
-                        }
-                    }
-                ?>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-1N'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-2N'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-3N'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-4N'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-1H'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-2H'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-3H'];?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-4H'];?>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+<div class="alert-info">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="img-fluid" src="../img/tools/map-map.png" alt="">
       </div>
     </div>
   </div>
