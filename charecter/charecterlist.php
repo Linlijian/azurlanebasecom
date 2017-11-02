@@ -158,7 +158,8 @@
         <div class="container">
             <div class="row">
                 <?php
-                     $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic, detail.rarity as rarity
+                     $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic, detail.rarity as rarity,
+                     detail.nationality as nation, detail.class, detail.TimeToCreate  as timecret,detail.hullType
                      FROM `charecter`
                      INNER JOIN detail ON detail.charecterID  = charecter.charectorID";
                     $result = $conn->query($sql);
@@ -167,6 +168,9 @@
                             $pic[] = $row['pic'];
                             $cn[] = $row['cn'];
                             $cid[]=$row['cid'];
+                            $rar[] = $row['rarity'];
+                            $nation[] = $row['nation'];
+                            $time[] = $row['timecret'];
                             if ($row['rarity'] == 4){
                                 echo '<div class="card text-center alert-dark" style="width: 10rem;">
                                 <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
@@ -218,26 +222,28 @@
 
       
       <?php
+      $start = array('','★☆☆☆☆☆','★★☆☆☆☆','★★★☆☆☆','★★★★☆☆','★★★★★☆','★★★★★★');
         for($i=0;$i<count($cid);$i++){
             echo '<div class="modal fade" id="'.$cid[$i].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">รายละเอียดเรือหมายเลข'." ".$cid[$i].'</h5>
+                  <h5 class="modal-title" id="exampleModalLongTitle">รายละเอียดสาวเรือรบหมายเลข'." "." ".$cid[$i].'</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                '."<h4>ชื่อตัวละคร"." ".$cn[$i].'</h4>
+                '."<h4>ชื่อของเธอ"." ".$cn[$i]." "."ระดับ"." ".$start[$rar[$i]].'</h4>
                 <div class="container-fluid">
                 <div class="row">
-                  <div class="col-md-6"><img class ="img-fluid" src = "../img/charecter/'.$pic[$i].'" /></div>
-                  <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                  <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$pic[$i].'"  /></div>
                 </div>
                 <div class="row">
-                  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                  <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                  <div class="col-2 alert-primary">สัญชาติ <img src="../img/tools/></div>
+                  <div class="col-2 "></div>
+                  <div class="col-md-2 ">เวลาก่อสร้าง</div>
+                  <div class="col-md-2 ">.col-md-2 .col-md-offset-4</div>
                 </div>
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
