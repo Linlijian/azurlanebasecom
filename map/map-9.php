@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Azur lane basecom - Map</title>
+    <title>Azur lane basecom - Map 9</title>
     <?php include '../connectdb.php'?>
     <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
