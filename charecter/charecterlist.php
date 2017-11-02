@@ -159,7 +159,7 @@
             <div class="row">
                 <?php
                      $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic, detail.rarity as rarity,
-                     detail.nationality as nation, detail.class, detail.TimeToCreate  as timecret,detail.hullType
+                     detail.nationality as nation, detail.class as class, detail.TimeToCreate  as timecret,detail.hullType as type
                      FROM `charecter`
                      INNER JOIN detail ON detail.charecterID  = charecter.charectorID";
                     $result = $conn->query($sql);
@@ -171,6 +171,8 @@
                             $rar[] = $row['rarity'];
                             $nation[] = $row['nation'];
                             $time[] = $row['timecret'];
+                            $class[] = $row['class'];
+                            $type[] = $row['type'];
                             if ($row['rarity'] == 4){
                                 echo '<div class="card text-center alert-dark" style="width: 10rem;">
                                 <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
@@ -239,28 +241,20 @@
                 <div class="row">
                   <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$pic[$i].'"  /></div>
                 </div>
-                <div class="row">
-                  <div class="col-2 alert-primary">สัญชาติ <img src="../img/tools/></div>
-                  <div class="col-2 "></div>
-                  <div class="col-md-2 ">เวลาก่อสร้าง</div>
-                  <div class="col-md-2 ">.col-md-2 .col-md-offset-4</div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-9">
-                    Level 1: .col-sm-9
-                    <div class="row">
-                      <div class="col-8 col-sm-6">
-                        Level 2: .col-8 .col-sm-6
-                      </div>
-                      <div class="col-4 col-sm-6">
-                        Level 2: .col-4 .col-sm-6
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
+                  <div class="col alert-primary"><h2>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$nation[$i].'
+                  .png"/>'.$nation[$i].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"."Class&nbsp;&nbsp;&nbsp;&nbsp;".$class[$i].'</h2></div>
+                  <div class="col alert-primary"><h4>เวลาก่อสร้าง'."&nbsp;&nbsp;&nbsp;&nbsp;".$time[$i].''.
+                  " ".'น.&nbsp;&nbsp;&nbsp;&nbsp;ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp'.$type[$i].'</h4></div>
+                  <br>
+                  <div class="container"><div class="row alert-info">
+                    <div class="col-2"><img src = "../img/weapon/Firepower.png">'."&nbsp;&nbsp;".$status_atk[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Duration.png"> '."&nbsp;&nbsp;".$status_hp[$i].'</div>
+                    <div class="col-2"><img src = "../img/weapon/AntiAir.png">'."&nbsp;&nbsp;".$status_detfly[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Evasion.png">'."&nbsp;&nbsp;".$status_dodge[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Aviation.png"> '."&nbsp;&nbsp;".$status_atkfly[$i].'</div>
+                    <div class="col-2"><img src = "../img/weapon/Torpedo.png"> '."&nbsp;&nbsp;".$status_atktpd[$i].'</div>
+                    </div> </div>
               </div>
                 </div>
               </div>
