@@ -649,7 +649,7 @@ sub-ch304:
 ch305:
 sub-ch305:
 ch306:
-sub-ch306:
+sub-ch306:https://azurlane.koumakan.jp/w/images/6/6f/JupiterIcon.png
 ch307:
 sub-ch307:
 ch308:

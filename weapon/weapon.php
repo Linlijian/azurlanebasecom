@@ -40,6 +40,7 @@
                 <a class="nav-link " href="weapon-antiairguns.php"> <img class="img-fluid" src="../img/weapon/AntiAir.png" alt="">   ต้านอากาศ</a>
                 <a class="nav-link "href="weapon-fighters.php"> <img class="img-fluid" src="../img/weapon/Aviation.png" alt="">   เครื่องบิน</a>
                 <a class="nav-link "href="weapon.php"> <img class="img-fluid" src="../img/weapon/Firepower.png" alt="">   อาวุธปืน</a>
+                <a class="nav-link "href="weapon-Torpedo.php"> <img class="img-fluid" src="../img/weapon/Torpedo.png" alt="">   ตอปิโด</a>
                 <a class="nav-link "href="weapon-equiment.php"> <img class="img-fluid" src="../img/weapon/Armor.png" alt="">   อุปกรณ์เสริม</a>
                 </ul>
               </div>
