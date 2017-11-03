@@ -25,7 +25,7 @@
       <a class="nav-link" href="../charecter/charecterlist.php">ตัวละคร</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">แผนที่</a>
+      <a class="nav-link" href="../map/map.php">แผนที่</a>
     </li>
     <li class="nav-item">
       <a class="nav-link " href="../weapon/weapon.php">อุปกรณ์</a>

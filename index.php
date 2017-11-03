@@ -16,7 +16,7 @@
     <a class="nav-link" href="charecter/charecterlist.php">ตัวละคร</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">แผนที่</a>
+    <a class="nav-link" href="map/map.php">แผนที่</a>
   </li>
   <li class="nav-item">
     <a class="nav-link " href="weapon/weapon.php">อุปกรณ์</a>
@@ -32,34 +32,34 @@
             <div class="container">
               <div class="row">
                 <div class="col-4">
-                  <h2>Name:</h2>
+                  <h2>Portland ★★★★★☆</h2>
                   <li class="list-group-item">
-                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                    <img src="img/weapon/43000.png" class="img-fluid rounded" alt="">  Triple 406mm BL 16 inch Mk I
                   </li>
                   <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
                   <img src="img/tools/wh.png" class="img-fluid rounded" alt="" width=55%>
                   <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
                   <li class="list-group-item">
-                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                    <img src="img/weapon/46000.png" class="img-fluid rounded" alt="">  Quadruple 20mm AA Flakvierling 38
                   </li>
                 </div>
                 <div class="col-md">
-                  <img src="img/charecter/ch2.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
+                  <img src="img/charecter/ch44.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width=100%>
                 </div>
                 <div class="col-4">
                 <li class="list-group-item">
-                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                    <img src="img/weapon/2400.png" class="img-fluid rounded" alt="">  Repair Toolkit
                   </li>
                     <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
                     <img src="img/tools/wh.png" class="img-fluid rounded" alt="" width=55%>
                     <img src="img/tools/c.png" class="img-fluid rounded" alt="" width=20%>
                   <li class="list-group-item">
-                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Improved Boiler
+                    <img src="img/weapon/500.png" class="img-fluid rounded" alt="">  Little Beaver Squadron Tag
                   </li>
                   <img src="img/tools/whk.png" class="img-fluid rounded" alt="" width=30%>
-                  <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                    Single toggle
-                  </button>
+                  <a href="charecter/charecterlist.php"><button type="button" class="btn btn-primary" >
+                    ข้อมูลสาวเรือรบทั้งหมด
+                  </button></a>
                 </div>
               </div>
             </div>
@@ -79,29 +79,33 @@
                 <div class="col-4">
                   <div class="card border-secondary mb-3" style="max-width: 20rem;">
                     <div class="card-header">
-                      <img src="img/weapon/500.png" class="img-fluid rounded mx-auto d-block" alt="" width>
+                      <img src="img/weapon/520.png" class="img-fluid rounded mx-auto d-block" alt="" width>
                     </div>
                     <div class="card-body text-secondary">
-                       <h4 class="card-title">Name</h4>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <h4 class="card-title">Pearl Tears</h4>
+                       <p class="card-text">เมื่อเรือที่ถืออุปกรณ์นี้จมลงจะฟื้นฟูพลังชีวิตให้แก่เรือทุกลำที่เหลือในกองเรือ 10.0%</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-4">
                   <div class="card border-secondary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header">
+                      <img src="img/weapon/2500.png" class="img-fluid rounded mx-auto d-block" alt="" width>
+                    </div>
                       <div class="card-body text-secondary">
-                        <h4 class="card-title">Secondary card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Fire Extinguisher</h4>
+                        <p class="card-text">	ลดโอกาสเกิดไฟไหม้ 10% ลดความเสียหายจากสถานะไฟไหม้ 10% หากติดตั้งอุปกรณ์เดียวกันมากกว่า 1 ชิ้น ในเรือลำเดิม จะนับเฉพาะเอฟเฟคที่ให้ผลมากที่สุดเท่านั้น of catching fire reduced by 10% reduces damage taken from fire by 10%*</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-4">
                   <div class="card border-secondary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header">
+                        <img src="img/weapon/29000.png" class="img-fluid rounded mx-auto d-block" alt="" width>
+                      </div>
                       <div class="card-body text-secondary">
-                        <h4 class="card-title">Secondary card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Blackburn Skua</h4>
+                        <p class="card-text">เครื่องบินลำเล็ฏ ๆ ที่ไม่มีใครใช่เพราะระดับ แค่ ★☆☆☆☆☆ เป็นอะไรที่เน่ามาก</p>
                     </div>
                   </div>
                 </div>
@@ -109,7 +113,7 @@
               <div class="row justify-content-end">
                 <div class="col">
                  <img src="img/tools/SD_weapon1.png" class="img-fluid rounded mx-auto d-block" alt="" width=30%>
-                 <button type="button" class="btn btn-secondary btn-lg float-right ">Large button</button>
+                 <a href="weapon/weapon.php"><button type="button" class="btn btn-secondary btn-lg float-right ">ดูรายละเอียดให้มากกว่านี้</button></a>
                 </div>
               </div>
             </div> 
@@ -120,6 +124,7 @@
     </div>
   </div>
 
+ 
   <div class="alert alert-danger" role="alert">
     <div class="container">
       <div class="row">
@@ -129,28 +134,28 @@
               <div class="row">
                 <div class="col-4">
                   <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
+                  <div class="card-header">แผนที่ 1</div>
                   <div class="card-body text-primary">
-                    <h4 class="card-title">Primary card title</h4>
-                    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
+                    <h4 class="card-title">Offshore exercises</h4>
+                    <img src="img/map/1-1N.png" class="img-fluid" alt="Responsive image" width=100%>
                   </div>
                 </div>
               </div>
               <div class="col-4">
                   <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
+                  <div class="card-header">แผนที่ 2</div>
                   <div class="card-body text-primary">
-                    <h4 class="card-title">Primary card title</h4>
-                    <img src="img/charecter/ch2.png" class="img-fluid" alt="Responsive image" width=100%>
+                    <h4 class="card-title">Support Tula Island</h4>
+                    <img src="img/map/2-1N.png" class="img-fluid" alt="Responsive image" width=100%>
                   </div>
                 </div>
               </div>
               <div class="col-4">
                   <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
+                  <div class="card-header">วาป แผนที่</div>
                   <div class="card-body text-primary">
-                    <h4 class="card-title">Primary card title</h4>
-                    <button type="button" class="btn btn-secondary btn-lg float-right ">Large button</button>
+                    <h4 class="card-title">แผนนั้นควรศึกษายุทธวิธี</h4>
+                    <a href="map/map.php"><button type="button" class="btn btn-secondary btn-lg float-right ">ลุย</button></a>
                   </div>
                 </div>
                 <img src="img/tools/weapon_mainC.png" class="img-fluid" alt="Responsive image" width=100%>
@@ -163,6 +168,7 @@
   </div>
   </div>
 
+  <div class="alert alert-danger" role="alert"> <h2>Coming Soon Function Event + System in Game</h2></div>
   <div class="alert alert-warning" role="alert">
   <div class="container">
     <div class="row">

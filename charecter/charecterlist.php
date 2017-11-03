@@ -50,7 +50,7 @@
     <a class="nav-link" href="../charecter/charecterlist.php">ตัวละคร</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">แผนที่</a>
+    <a class="nav-link" href="../map/map.php">แผนที่</a>
   </li>
   <li class="nav-item">
     <a class="nav-link " href="../weapon/weapon.php">อุปกรณ์</a>
@@ -378,21 +378,24 @@
                   <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
                    </div> 
                    </div><br>
-                   
-                  <div class="container"><div class="row alert-warning">
-                  <div class="col"><h4>ทักษะ</h4></div>
-                  </div>
-                  <div class="row alert-warning">
-                  <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
-                   </div> 
+
+                   <div class="container"><div class="row alert-danger">
+                   <div class="col"><h4>ทักษะวิชา</h4></div>
                    </div>
+                   <div class="row alert-danger">
+                   <div class="col-12">'."&nbsp;&nbsp;"."ผมต้องขออภัยเนื่องจาก Query ผ่านแต่ Performance ต่ำมากจึงเรียนให้ทราบว่าไม่มีการแสดงผล skill ไว้ในเพจนี้".'</div>
+                   <div class="row"><div class="col-12"><a class="nav-link active" href="charecterskill.php">วาป</a></div></div> 
+                   </div> 
+                    </div>
                    
+
           </div>
             </div>
           </div>
         </div>
       </div>' ;
       $count++;
+      $countcontrol = 0;
                  }
                  
                  
@@ -402,7 +405,26 @@
 
 
 
+<!-- echo '
+                  <div class="container"><div class="row alert-warning">
+                  <div class="col"><h4>ทักษะ</h4></div>
+                  </div>
+                  <div class="row alert-warning">';
 
+               
+                  
+                    while ($countcontrol < $charecter_skill[$count]){
+                        echo '<div class="col-4">';
+                        echo $skill_skillName[$count];
+                        echo '</div>';
+                        echo '<div class="col-8">';
+                        echo $skill_eff[$count];
+                        echo '</div>';
+                        $countcontrol++;
+                    }
+                  '</div>
+                   </div> 
+                   </div> -->
 
 
 
