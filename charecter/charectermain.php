@@ -57,37 +57,6 @@
   </li>
 </ul>
 
-    <!-- <div class="container">
-        <div class="row"> -->
-            <!-- <div class="col-3">
-            <div class="card border-success mb-3" style="max-width: 20rem;"> -->
-            <?php
-                // $sql = "SELECT id,picture FROM `charecter` ";
-                // $result = $conn->query($sql);
-                // if ($result->num_rows > 0){
-                //     while($row = $result->fetch_assoc()){
-                        
-                //         if ( $row["id"] % 4 == 0){
-                //             echo '<div class="container">';
-                //             echo '<div class="row">';
-                //         }
-                //         echo '<div class="col-3">';
-                //         echo '<div class="card border-success mb-3" style="max-width: 20rem;">';
-                //         echo '<div class="card-header">Header</div>';
-                //         echo $r = $row["picture"];
-                //         echo '<img class="img-fluid" src="'."../img/charecter/".$r.'"' ;
-                //         echo '<ul class="list-group list-group-flush">';
-                //         echo '<li class="list-group-item">'."pic".'</li>';
-                //         echo '</ul>';
-
-                //     } 
-                // }
-            ?>
-                <!-- <img src="<?php echo "../img/charecter/".$r;?>" alt=""> -->
-            </div>
-        </div>
-    </div>
-
     <?php
         $sql = "SELECT * FROM `status`";
         $r = $conn->query($sql);
@@ -202,7 +171,7 @@
         <div class="container">
             <div class="row">
                 <?php
-                        $count = 0;
+                     $count = 0;
                         while($count != 310){
 
                             if ($detail_rarity[$count] == 4){
@@ -247,48 +216,29 @@
         </div>
 
 
-        <!-- <div class="card" style="width: 10rem;">
-        <div class="card-block">
-          <h3 class="card-title"></h3>
-          <p class="card-text"><div class="col-2"><img src="../img/charecter/sub-ch6.png" alt=""></div></p>
-          <a href="#" data-toggle="modal" data-target="#1" class="btn btn-primary">Go somewhere++</a>
-        </div>
-      </div> -->
-
-      
-      <?php
+ <?php
       $armmy = array('Light','Medium','Heavy','None');
       $armmyTH = array('เบา','กลาง','หนัก','ไม่มีข้อมูล');
       $q = 0;
       while($q != 310){
-    
-    if($beginstatus_def[$q] == "Light"){
-        $th[$q] = $armmyTH[0];
-    }else if($beginstatus_def[$q] == "Medium"){
-        $th[$q] = $armmyTH[1];
-    }else if($beginstatus_def[$q] == "Heavy"){
-        $th[$q] = $armmyTH[2];
-    }else{
-        $th[$q] = $armmyTH[3];
+        if($beginstatus_def[$q] == "Light"){
+            $th[$q] = $armmyTH[0];
+        }else if($beginstatus_def[$q] == "Medium"){
+            $th[$q] = $armmyTH[1];
+        }else if($beginstatus_def[$q] == "Heavy"){
+            $th[$q] = $armmyTH[2];
+        }else{
+            $th[$q] = $armmyTH[3];
+        }
+        $q++;
     }
-    $q++;
-}
-    //   function  armmyconvertTH ($str){
-    //     $count = 0;
-    //     $j = 4;  
-    //     while ($count <= $j){
-    //         if ($armmy[$count]==$str)
-    //             return $count;
-    //         $count++;
-    //     }
-    //   }
-      $start = array('','★☆☆☆☆☆','★★☆☆☆☆','★★★☆☆☆','★★★★☆☆','★★★★★☆','★★★★★★');
-      $count = 0;
-      $countskill = 0;
-      $countcontrol = 0;
-      while($count != 310){
-        
-        echo '<div class="modal fade alert-success" id="'.$charecter_id[$count].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    $start = array('','★☆☆☆☆☆','★★☆☆☆☆','★★★☆☆☆','★★★★☆☆','★★★★★☆','★★★★★★');
+    $count = 0;
+    $countskill = 0;
+    $countcontrol = 0;
+    while($count != 310){
+        echo '
+        <div class="modal fade alert-success" id="'.$charecter_id[$count].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -297,29 +247,32 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-            '."<h4>ชื่อของเธอ"." ".$detail_name[$count]." "."ระดับ"." ".$start[$detail_rarity[$count]].'</h4>
-            <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$charecter_pic[$count].'"  /></div>
-            </div>
-            <div class="container alert-primary">
-                <div class="row alert-info">
-                <div class="col"><h4>รายละเอียด</h4></div>
-                </div><div class="row alert-info">
-              <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$detail_nationality[$count].'.png"/>'.$detail_nationality[$count].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
-              </div>
-              <div class="row alert-info">
-              <div class="col alert-primary"><h4>ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_hullType[$count].'</h4></div>
-              </div>
-              <div class="row alert-info">
-              <div class="col alert-primary"><h4>Class&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_class[$count].'</h4></div>
-              </div>
-              <div class="row alert-info">
-              <div class="col alert-primary"><h4>เวลาก่อสร้าง&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_TimeToCreate[$count]." "."".'</h4></div>
-              </div>
-              </div>
+            <div class="modal-body">'."
+                <h4>ชื่อของเธอ"." ".$detail_name[$count]." "."ระดับ"." ".$start[$detail_rarity[$count]].'</h4>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$charecter_pic[$count].'"  /></div>
+                     </div>
+
+                <div class="container alert-primary">
+                    <div class="row alert-info">
+                        <div class="col"><h4>รายละเอียด</h4></div>
+                    </div>
+                    <div class="row alert-info">
+                        <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$detail_nationality[$count].'.png"/>'.$detail_nationality[$count].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
+                    </div>
+                    <div class="row alert-info">
+                        <div class="col alert-primary"><h4>ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_hullType[$count].'</h4></div>
+                    </div>
+                        <div class="row alert-info">
+                    <div class="col alert-primary"><h4>Class&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_class[$count].'</h4></div>
+                        </div>
+                    <div class="row alert-info">
+                        <div class="col alert-primary"><h4>เวลาก่อสร้าง&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_TimeToCreate[$count]." "."".'</h4></div>
+                    </div>
+                </div>
               <br>
+              
               <div class="container alert-warning"><div class="row alert-info">
               <div class="col"><h4>เกรดโดยรวม</h4></div></div>
               <div class="row alert-info">
@@ -351,6 +304,7 @@
                  </div>
                 </div>
                 <br>
+
                 <div class="container"><div class="row alert-success">
                 <div class="col"><h4>อัพเกรด</h4></div>
                 </div>
@@ -362,6 +316,7 @@
                  </div> 
                  </div>
                  <br>
+
                  <div class="container"><div class="row alert-danger">
                  <div class="col"><h4>ย่อยสลาย ~ ~ T^T</h4></div>
                  </div>
@@ -371,6 +326,7 @@
                  <div class="col-3"><img src = "../img/tools/coin.png"> '."&nbsp;&nbsp;".$destroy_coin[$count].'</div>
                   </div> 
                   </div><br>
+
                   <div class="container"><div class="row alert-warning">
                   <div class="col"><h4>จุดค้นหา</h4></div>
                   </div>
@@ -378,52 +334,14 @@
                   <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
                    </div> 
                    </div><br>
-                   
-                  <div class="container"><div class="row alert-warning">
-                  <div class="col"><h4>ทักษะ</h4></div>
-                  </div>
-                  <div class="row alert-warning">
-                  <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
-                   </div> 
-                   </div>
-                   
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>' ;
-      $count++;
-                 }
-                 
-                 
-               
-             ?>
+                 </div>
+                 </div>
+               </div>
+             </div>
+           </div>';
+    }
+?>
 
-
-
-
-
-
-
-
-
-
-
-<div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle"> รายชื่อเรือดรอป</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <?php echo $list['1-3N'];?>
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
