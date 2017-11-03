@@ -158,6 +158,7 @@
         <div class="container">
             <div class="row">
                 <?php
+                $num = 0;
                      $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic, detail.rarity as rarity,
                      detail.nationality as nation, detail.class as class, detail.TimeToCreate  as timecret,detail.hullType as type
                      FROM `charecter`
@@ -165,6 +166,7 @@
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0){
                         while($row = $result->fetch_assoc()){
+                            $num++;
                             $pic[] = $row['pic'];
                             $cn[] = $row['cn'];
                             $cid[]=$row['cid'];
@@ -224,8 +226,25 @@
 
       
       <?php
+      $armmy = array('Light','Medium','Heavy','None');
+      $armmyTH = array('เบา','กลาง','หนัก','ไม่มีข้อมูล');
+      $q = 3;
+for($q=0;$q<4;$q++){
+    echo $armmy[$q].'<br>';
+    echo $armmyTH[$q].'<br>';
+}
+    //   function  armmyconvertTH ($str){
+    //     $i = 0;
+    //     $j = 4;  
+    //     while ($i <= $j){
+    //         if ($armmy[$i]==$str)
+    //             return $i;
+    //         $i++;
+    //     }
+    //   }
       $start = array('','★☆☆☆☆☆','★★☆☆☆☆','★★★☆☆☆','★★★★☆☆','★★★★★☆','★★★★★★');
-        for($i=0;$i<count($cid);$i++){
+        for($i=1;$i<count($cid);$i++){
+
             echo '<div class="modal fade" id="'.$cid[$i].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
@@ -236,12 +255,12 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                '."<h4>ชื่อของเธอ"." ".$cn[$i]." "."ระดับ"." ".$start[$rar[$i]].'</h4>
+                '."<h4>ชื่อของเธอ"." ".$cn[$i]." "."ระดับ"." ".$start[$rar[$i]].'Debug $i = :'.$i."|".'</h4>
                 <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$pic[$i].'"  /></div>
                 </div>
-                
+                    
                   <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$nation[$i].'
                   .png"/>'.$nation[$i].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
 
@@ -263,29 +282,41 @@
                         <div class="col"><h4>สถานะเริ่มต้น</h4></div>
                     </div> 
                     <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Armor.png">ๅ/ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Refill.png">ๅ/ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">'."&nbsp;&nbsp;".$beginstatus_hp[$i].'</h4></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/Armor.png">'."&nbsp;&nbsp;". $beginstatus_def[$i].'</h6></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Refill.png">'."&nbsp;&nbsp;".$beginstatus_cd[$i].'</h4></div>
                     </div>
                     <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Torpedo.png">'."&nbsp;&nbsp;".$beginstatus_atkTPD[$i].'</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Evasion.png">'."&nbsp;&nbsp;".$beginstatus_dodge[$i].'</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/AntiAir.png">'."&nbsp;&nbsp;".$beginstatus_defFly[$i].'</h4></div>
                     </div>
                     <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Aviation.png">'."&nbsp;&nbsp;".$beginstatus_atkFly[$i].'</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Consumption.png">'."&nbsp;&nbsp;".$beginstatus_depetion[$i].'</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/speed.png">'."&nbsp;&nbsp;".$beginstatus_speed[$i].'</h4></div>
                      </div>
                     </div>
-
+                    
               </div>
                 </div>
               </div>
             </div>
-          </div>';
+          </div>' ;
+          echo $num;
         }
       ?>
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
