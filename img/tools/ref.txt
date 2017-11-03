@@ -47,3 +47,13 @@ http://img0.joyreactor.cc/pics/post/Anime-Azur-Lane-atago-%28azur-lane%29-little
 
 map-map
 https://pixabay.com/p-304779/?no_redirect
+
+coin
+https://azurlane.koumakan.jp/w/images/thumb/3/33/Medalicon.png/25px-Medalicon.png
+
+oil
+https://azurlane.koumakan.jp/w/images/thumb/f/f2/Oilicon.png/25px-Oilicon.png
+
+money
+https://azurlane.koumakan.jp/w/images/thumb/c/c4/Coinicon.png/25px-Coinicon.png
+

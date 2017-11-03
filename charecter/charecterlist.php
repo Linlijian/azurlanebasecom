@@ -26,12 +26,21 @@
     background-color: #BEBEBE;
     border-color: #ebcccc;
     color: #a94442;
-    .alert-b {
-    background-color: black;
-    border-color: #ebcccc;
-    color: #a94442;
+    }
 }
   </script>
+  <script>
+  .alert-b {
+    background-color: #BEBEBE;
+    border-color: black;
+    color: #a94442;
+    }
+</script>
+<script>    .alert-su {
+    background-color: #ebcccc;
+    border-color: #FE2E2E;
+    color: #a94442;
+    }</script>
   <body>
   <ul class="nav justify-content-end">
   <li class="nav-item">
@@ -155,62 +164,84 @@
             }
         }
     ?>
+    <?php
+        $sql = "SELECT * FROM `charecter`";
+        $r = $conn->query($sql);
+        if ($r->num_rows > 0){
+            while ($row = $r->fetch_assoc()){
+                $charecter_id[] = $row['charectorID']; 
+                $charecter_pic[] = $row['picture'];       
+                $charecter_status[] = $row['status'];  
+                $charecter_beginStatus[] = $row['beginStatus']; 
+                $charecter_skill[] = $row['skill'];       
+                $charecter_remodel[] = $row['reModel']; 
+                $charecter_costom[] = $row['cusTom'];     
+                                 
+            }
+        }
+    ?>
+        <?php
+        $sql = "SELECT * FROM `detail`";
+        $r = $conn->query($sql);
+        if ($r->num_rows > 0){
+            while ($row = $r->fetch_assoc()){
+                $detail_name[] = $row['name']; 
+                $detail_rarity[] = $row['rarity'];       
+                $detail_nationality[] = $row['nationality'];  
+                $detail_class[] = $row['class']; 
+                $detail_hullType[] = $row['hullType'];       
+                $detail_TimeToCreate[] = $row['TimeToCreate']; 
+                $detail_location[] = $row['location']; 
+                $detail_upgrade[] = $row['upgrade']; 
+                $detail_destroy[] = $row['destroy'];                      
+            }
+        }
+    ?>
+
+    
         <div class="container">
             <div class="row">
                 <?php
-                $num = 0;
-                     $sql = "SELECT charecter.charectorID AS cid,detail.name AS cn,charecter.picture as pic, detail.rarity as rarity,
-                     detail.nationality as nation, detail.class as class, detail.TimeToCreate  as timecret,detail.hullType as type
-                     FROM `charecter`
-                     INNER JOIN detail ON detail.charecterID  = charecter.charectorID";
-                    $result = $conn->query($sql);
-                    if ($result->num_rows > 0){
-                        while($row = $result->fetch_assoc()){
-                            $num++;
-                            $pic[] = $row['pic'];
-                            $cn[] = $row['cn'];
-                            $cid[]=$row['cid'];
-                            $rar[] = $row['rarity'];
-                            $nation[] = $row['nation'];
-                            $time[] = $row['timecret'];
-                            $class[] = $row['class'];
-                            $type[] = $row['type'];
-                            if ($row['rarity'] == 4){
+                        $count = 0;
+                        while($count != 310){
+
+                            if ($detail_rarity[$count] == 4){
                                 echo '<div class="card text-center alert-dark" style="width: 10rem;">
-                                <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
-                                  <h5 class="card-title">'.$row['cid'].'</h5>
-                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$row['pic'].'" alt=""></div></p>
-                                  '.$row['cn'].'
+                                <a href="#" data-toggle="modal" data-target="#'.$charecter_id[$count].'" class=""><div class="card-block">
+                                  <h5 class="card-title">'.$charecter_id[$count].'</h5>
+                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$charecter_pic[$count].'" alt=""></div></p>
+                                  '.$detail_name[$count].'
                                 </div>
                               </div></a>';
-                            }else  if ($row['rarity'] == 5){
+                            }else  if ($detail_rarity[$count] == 5){
                                 echo '<div class="card text-center alert-primary" style="width: 10rem;">
-                                <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
-                                  <h5 class="card-title">'.$row['cid'].'</h5>
-                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$row['pic'].'" alt=""></div></p>
-                                  '.$row['cn'].'
+                                <a href="#" data-toggle="modal" data-target="#'.$charecter_id[$count].'" class=""><div class="card-block">
+                                  <h5 class="card-title">'.$charecter_id[$count].'</h5>
+                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$charecter_pic[$count].'" alt=""></div></p>
+                                  '.$detail_name[$count].'
                                 </div>
                               </div></a>';
-                            }else  if ($row['rarity'] == 6){
+                            }else  if ($detail_rarity[$count] == 6){
                                 echo '<div class="card text-center alert-warning" style="width: 10rem;">
-                                <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
-                                  <h5 class="card-title">'.$row['cid'].'</h5>
-                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$row['pic'].'" alt=""></div></p>
-                                  '.$row['cn'].'
+                                <a href="#" data-toggle="modal" data-target="#'.$charecter_id[$count].'" class=""><div class="card-block">
+                                  <h5 class="card-title">'.$charecter_id[$count].'</h5>
+                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$charecter_pic[$count].'" alt=""></div></p>
+                                  '.$detail_name[$count].'
                                 </div>
                               </div></a>';
-                            }else if ($row['rarity'] == 0){
+                            }else if ($detail_rarity[$count] == 0){
                                 echo '<div class="card text-center alert-b" style="width: 10rem;">
-                                <a href="#" data-toggle="modal" data-target="#'.$row['cid'].'" class=""><div class="card-block">
-                                  <h5 class="card-title">'.$row['cid'].'</h5>
-                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$row['pic'].'" alt=""></div></p>
-                                  '.$row['cn'].'
+                                <a href="#" data-toggle="modal" data-target="#'.$charecter_id[$count].'" class=""><div class="card-block">
+                                  <h5 class="card-title">'.$charecter_id[$count].'</h5>
+                                  <p class="card-text"><div class="col-2"><img class="" src="../img/charecter/sub-'.$charecter_pic[$count].'" alt=""></div></p>
+                                  '.$detail_name[$count].'
                                 </div>
                               </div></a>';
                             }
+                            $count++;
                             
                         }
-                    }
+                    
                 ?>
             </div>
         </div>
@@ -228,82 +259,149 @@
       <?php
       $armmy = array('Light','Medium','Heavy','None');
       $armmyTH = array('เบา','กลาง','หนัก','ไม่มีข้อมูล');
-      $q = 3;
-for($q=0;$q<4;$q++){
-    echo $armmy[$q].'<br>';
-    echo $armmyTH[$q].'<br>';
+      $q = 0;
+      while($q != 310){
+    
+    if($beginstatus_def[$q] == "Light"){
+        $th[$q] = $armmyTH[0];
+    }else if($beginstatus_def[$q] == "Medium"){
+        $th[$q] = $armmyTH[1];
+    }else if($beginstatus_def[$q] == "Heavy"){
+        $th[$q] = $armmyTH[2];
+    }else{
+        $th[$q] = $armmyTH[3];
+    }
+    $q++;
 }
     //   function  armmyconvertTH ($str){
-    //     $i = 0;
+    //     $count = 0;
     //     $j = 4;  
-    //     while ($i <= $j){
-    //         if ($armmy[$i]==$str)
-    //             return $i;
-    //         $i++;
+    //     while ($count <= $j){
+    //         if ($armmy[$count]==$str)
+    //             return $count;
+    //         $count++;
     //     }
     //   }
       $start = array('','★☆☆☆☆☆','★★☆☆☆☆','★★★☆☆☆','★★★★☆☆','★★★★★☆','★★★★★★');
-        for($i=1;$i<count($cid);$i++){
+      $count = 0;
+      while($count != 310){
 
-            echo '<div class="modal fade" id="'.$cid[$i].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            echo '<div class="modal fade alert-success" id="'.$charecter_id[$count].'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">รายละเอียดสาวเรือรบหมายเลข'." "." ".$cid[$i].'</h5>
+                  <h5 class="modal-title" id="exampleModalLongTitle">รายละเอียดสาวเรือรบหมายเลข'." "." ".$charecter_id[$count].'</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                '."<h4>ชื่อของเธอ"." ".$cn[$i]." "."ระดับ"." ".$start[$rar[$i]].'Debug $i = :'.$i."|".'</h4>
+                '."<h4>ชื่อของเธอ"." ".$detail_name[$count]." "."ระดับ"." ".$start[$detail_rarity[$count]].'</h4>
                 <div class="container-fluid">
                 <div class="row">
-                  <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$pic[$i].'"  /></div>
+                  <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$charecter_pic[$count].'"  /></div>
                 </div>
-                    
-                  <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$nation[$i].'
-                  .png"/>'.$nation[$i].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
-
-                  <div class="col alert-primary"><h4>ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp;'.$type[$i].'</h4></div>
-                  <div class="col alert-primary"><h4>Class&nbsp;&nbsp;&nbsp;&nbsp;'.$class[$i].'</h4></div>
-                  <div class="col alert-primary"><h4>เวลาก่อสร้าง&nbsp;&nbsp;&nbsp;&nbsp;'.$time[$i]." "."น.".'</h4></div>
-
+                <div class="container alert-primary">
+                    <div class="row alert-info">
+                    <div class="col"><h4>รายละเอียด</h4></div>
+                    </div><div class="row alert-info">
+                  <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$detail_nationality[$count].'.png"/>'.$detail_nationality[$count].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
+                  </div>
+                  <div class="row alert-info">
+                  <div class="col alert-primary"><h4>ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_hullType[$count].'</h4></div>
+                  </div>
+                  <div class="row alert-info">
+                  <div class="col alert-primary"><h4>Class&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_class[$count].'</h4></div>
+                  </div>
+                  <div class="row alert-info">
+                  <div class="col alert-primary"><h4>เวลาก่อสร้าง&nbsp;&nbsp;&nbsp;&nbsp;'.$detail_TimeToCreate[$count]." "."".'</h4></div>
+                  </div>
+                  </div>
                   <br>
-                  <div class="container"><div class="row alert-info">
-                    <div class="col-2"><img src = "../img/weapon/Firepower.png"> '."&nbsp;&nbsp;".$status_atk[$i].' </div>
-                    <div class="col-2"><img src = "../img/weapon/Duration.png"> '."&nbsp;&nbsp;".$status_hp[$i].'</div>
-                    <div class="col-2"><img src = "../img/weapon/AntiAir.png"> '."&nbsp;&nbsp;".$status_detfly[$i].' </div>
-                    <div class="col-2"><img src = "../img/weapon/Evasion.png"> '."&nbsp;&nbsp;".$status_dodge[$i].' </div>
-                    <div class="col-2"><img src = "../img/weapon/Aviation.png"> '."&nbsp;&nbsp;".$status_atkfly[$i].'</div>
-                    <div class="col-2"><img src = "../img/weapon/Torpedo.png"> '."&nbsp;&nbsp;".$status_atktpd[$i].'</div>
-                    </div> </div>
+                  <div class="container alert-warning"><div class="row alert-info">
+                  <div class="col"><h4>เกรดโดยรวม</h4></div></div>
+                  <div class="row alert-info">
+                    <div class="col-2"><img src = "../img/weapon/Firepower.png"> '."&nbsp;&nbsp;".$status_atk[$count].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Duration.png"> '."&nbsp;&nbsp;".$status_hp[$count].'</div>
+                    <div class="col-2"><img src = "../img/weapon/AntiAir.png"> '."&nbsp;&nbsp;".$status_detfly[$count].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Evasion.png"> '."&nbsp;&nbsp;".$status_dodge[$count].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Aviation.png"> '."&nbsp;&nbsp;".$status_atkfly[$count].'</div>
+                    <div class="col-2"><img src = "../img/weapon/Torpedo.png"> '."&nbsp;&nbsp;".$status_atktpd[$count].'</div>
+                    </div> </div></div>
                     <br>
-                    <div class="container"><div class="row alert-info">
+                    <div class="container"><div class="row alert-warning">
                         <div class="col"><h4>สถานะเริ่มต้น</h4></div>
                     </div> 
-                    <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">'."&nbsp;&nbsp;".$beginstatus_hp[$i].'</h4></div>
-                        <div class="col-4"><h6><img src = "../img/weapon/Armor.png">'."&nbsp;&nbsp;". $beginstatus_def[$i].'</h6></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Refill.png">'."&nbsp;&nbsp;".$beginstatus_cd[$i].'</h4></div>
+                    <div class="row alert-warning">
+                        <div class="col-4"><h6><img src = "../img/weapon/Duration.png">'."&nbsp;(เลือด)"."&nbsp;&nbsp;".$beginstatus_hp[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/Armor.png">'."&nbsp;(น้ำหนักเกราะ)"."&nbsp;&nbsp;". $th[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/Refill.png">'."&nbsp;(โหลดกระสูน)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_cd[$count].'</h6></div>
                     </div>
-                    <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Torpedo.png">'."&nbsp;&nbsp;".$beginstatus_atkTPD[$i].'</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Evasion.png">'."&nbsp;&nbsp;".$beginstatus_dodge[$i].'</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/AntiAir.png">'."&nbsp;&nbsp;".$beginstatus_defFly[$i].'</h4></div>
+                    <div class="row alert-warning">
+                        <div class="col-4"><h6><img src = "../img/weapon/Torpedo.png">'."&nbsp;(โจมตีตอปิโด)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_atkTPD[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/Evasion.png">'."&nbsp;(หลบหลีก)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_dodge[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/AntiAir.png">'."&nbsp;(ต่อต้านอากาศ)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_defFly[$count].'</h6></div>
                     </div>
-                    <div class="row alert-info">
-                        <div class="col-4"><h4><img src = "../img/weapon/Aviation.png">'."&nbsp;&nbsp;".$beginstatus_atkFly[$i].'</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/Consumption.png">'."&nbsp;&nbsp;".$beginstatus_depetion[$i].'</h4></div>
-                        <div class="col-4"><h4><img src = "../img/weapon/speed.png">'."&nbsp;&nbsp;".$beginstatus_speed[$i].'</h4></div>
+                    <div class="row alert-warning">
+                        <div class="col-4"><h6><img src = "../img/weapon/Aviation.png">'."&nbsp;(โจมตีทางอากาศ)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_atkFly[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/Consumption.png">'."&nbsp;(เสียน้ำมัน)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_depetion[$count].'</h6></div>
+                        <div class="col-4"><h6><img src = "../img/weapon/speed.png">'."&nbsp;(ความเร็ว)"."&nbsp;&nbsp;"."&nbsp;&nbsp;".$beginstatus_speed[$count].'</h6></div>
                      </div>
                     </div>
-                    
+                    <br>
+
+                    <div class="container"><div class="row alert-success">
+                    <div class="col"><h4>อัพเกรด</h4></div>
+                    </div>
+                    <div class="row alert-success">
+                    <div class="col-3"><img src = "../img/weapon/Firepower.png"> '."&nbsp;&nbsp;".$update_atk[$count].'</div>
+                    <div class="col-3"><img src = "../img/weapon/Torpedo.png"> '."&nbsp;&nbsp;".$updates_torpedo[$count].'</div>
+                    <div class="col-3"><img src = "../img/weapon/Aviation.png"> '."&nbsp;&nbsp;".$updates_fly[$count].'</div>
+                    <div class="col-3"><img src = "../img/weapon/Refill.png"> '."&nbsp;&nbsp;".$updates_reload[$count].'</div>
+                     </div> 
+                     </div>
+                     <br>
+
+                     <div class="container"><div class="row alert-danger">
+                     <div class="col"><h4>ย่อยสลาย ~ ~ T^T</h4></div>
+                     </div>
+                     <div class="row alert-danger">
+                     <div class="col-3"><img src = "../img/tools/money.png"> '."&nbsp;&nbsp;".$destroy_money[$count].'</div>
+                     <div class="col-3"><img src = "../img/tools/oil.png"> '."&nbsp;&nbsp;".$destroy_oil[$count].'</div>
+                     <div class="col-3"><img src = "../img/tools/coin.png"> '."&nbsp;&nbsp;".$destroy_coin[$count].'</div>
+                      </div> 
+                      </div><br>
+
+                      <div class="container"><div class="row alert-warning">
+                      <div class="col"><h4>จุดค้นหา</h4></div>
+                      </div>
+                      <div class="row alert-warning">
+                      <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
+                       </div> 
+                       </div><br>
+
+                       
+                      <div class="container"><div class="row alert-warning">
+                      <div class="col"><h4>ทักษะ</h4></div>
+                      </div>
+                      <div class="row alert-warning">
+                      <div class="col-12">'."&nbsp;&nbsp;".$drops_dropsList[$count].'</div>
+                       </div> 
+                       </div>
+
+
+
+
+
+
+
               </div>
                 </div>
               </div>
             </div>
           </div>' ;
-          echo $num;
+          
+          $count++;
         }
       ?>
 
