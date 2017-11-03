@@ -242,19 +242,43 @@
                   <div class="col-md-12"><img class ="img-fluid rounded mx-auto d-block" src = "../img/charecter/'.$pic[$i].'"  /></div>
                 </div>
                 
-                  <div class="col alert-primary"><h2>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$nation[$i].'
-                  .png"/>'.$nation[$i].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"."Class&nbsp;&nbsp;&nbsp;&nbsp;".$class[$i].'</h2></div>
-                  <div class="col alert-primary"><h4>เวลาก่อสร้าง'."&nbsp;&nbsp;&nbsp;&nbsp;".$time[$i].''.
-                  " ".'น.&nbsp;&nbsp;&nbsp;&nbsp;ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp'.$type[$i].'</h4></div>
+                  <div class="col alert-primary"><h4>สัญชาติ'."&nbsp;&nbsp;&nbsp;&nbsp;".'<img src="../img/weapon/'.$nation[$i].'
+                  .png"/>'.$nation[$i].''."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".'</h4></div>
+
+                  <div class="col alert-primary"><h4>ประเภทเรือ&nbsp;&nbsp;&nbsp;&nbsp;'.$type[$i].'</h4></div>
+                  <div class="col alert-primary"><h4>Class&nbsp;&nbsp;&nbsp;&nbsp;'.$class[$i].'</h4></div>
+                  <div class="col alert-primary"><h4>เวลาก่อสร้าง&nbsp;&nbsp;&nbsp;&nbsp;'.$time[$i]." "."น.".'</h4></div>
+
                   <br>
                   <div class="container"><div class="row alert-info">
-                    <div class="col-2"><img src = "../img/weapon/Firepower.png">'."&nbsp;&nbsp;".$status_atk[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Firepower.png"> '."&nbsp;&nbsp;".$status_atk[$i].' </div>
                     <div class="col-2"><img src = "../img/weapon/Duration.png"> '."&nbsp;&nbsp;".$status_hp[$i].'</div>
-                    <div class="col-2"><img src = "../img/weapon/AntiAir.png">'."&nbsp;&nbsp;".$status_detfly[$i].' </div>
-                    <div class="col-2"><img src = "../img/weapon/Evasion.png">'."&nbsp;&nbsp;".$status_dodge[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/AntiAir.png"> '."&nbsp;&nbsp;".$status_detfly[$i].' </div>
+                    <div class="col-2"><img src = "../img/weapon/Evasion.png"> '."&nbsp;&nbsp;".$status_dodge[$i].' </div>
                     <div class="col-2"><img src = "../img/weapon/Aviation.png"> '."&nbsp;&nbsp;".$status_atkfly[$i].'</div>
                     <div class="col-2"><img src = "../img/weapon/Torpedo.png"> '."&nbsp;&nbsp;".$status_atktpd[$i].'</div>
                     </div> </div>
+                    <br>
+                    <div class="container"><div class="row alert-info">
+                        <div class="col"><h4>สถานะเริ่มต้น</h4></div>
+                    </div> 
+                    <div class="row alert-info">
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Armor.png">ๅ/ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Refill.png">ๅ/ๅ/</h4></div>
+                    </div>
+                    <div class="row alert-info">
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                    </div>
+                    <div class="row alert-info">
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                        <div class="col-4"><h4><img src = "../img/weapon/Duration.png">ๅ/</h4></div>
+                     </div>
+                    </div>
+
               </div>
                 </div>
               </div>
