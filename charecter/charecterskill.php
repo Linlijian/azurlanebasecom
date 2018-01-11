@@ -12,13 +12,13 @@
         // $username = "root";
         // $password = "";
         // $dbname = "azurlanebasecom";
-        
+
         // // Create connection
         // $conn = new mysqli($servername, $username, $password, $dbname);
         // // Check connection
         // if ($conn->connect_error) {
         //     die("Connection failed: " . $conn->connect_error);
-        // } 
+        // }
     ?>
   </head>
   <script>
@@ -98,7 +98,7 @@
                 $beginstatus_atkFly[] = $row['atkFly'];
                 $beginstatus_depetion[] = $row['depetion'];
                 $beginstatus_speed[] = $row['speed'];
-                
+
             }
         }
     ?>
@@ -109,7 +109,7 @@
             while ($row = $r->fetch_assoc()){
                 $destroy_money[] = $row['money'];
                 $destroy_oil[] = $row['oil'];
-                $destroy_coin[] = $row['coin'];                
+                $destroy_coin[] = $row['coin'];
             }
         }
     ?>
@@ -118,7 +118,7 @@
         $r = $conn->query($sql);
         if ($r->num_rows > 0){
             while ($row = $r->fetch_assoc()){
-                $drops_dropsList[] = $row['dropsList'];             
+                $drops_dropsList[] = $row['dropsList'];
             }
         }
     ?>
@@ -127,9 +127,9 @@
         $r = $conn->query($sql);
         if ($r->num_rows > 0){
             while ($row = $r->fetch_assoc()){
-                $skill_skill[] = $row['skill']; 
-                $skill_skillName[] = $row['skillName'];       
-                $skill_eff[] = $row['eff'];                   
+                $skill_skill[] = $row['skill'];
+                $skill_skillName[] = $row['skillName'];
+                $skill_eff[] = $row['eff'];
             }
         }
     ?>
@@ -138,14 +138,14 @@
         $r = $conn->query($sql);
         if ($r->num_rows > 0){
             while ($row = $r->fetch_assoc()){
-                $charecter_id[] = $row['charectorID']; 
-                $charecter_pic[] = $row['picture'];       
-                $charecter_status[] = $row['status'];  
-                $charecter_beginStatus[] = $row['beginStatus']; 
-                $charecter_skill[] = $row['skill'];       
-                $charecter_remodel[] = $row['reModel']; 
-                $charecter_costom[] = $row['cusTom'];     
-                                 
+                $charecter_id[] = $row['charectorID'];
+                $charecter_pic[] = $row['picture'];
+                $charecter_status[] = $row['status'];
+                $charecter_beginStatus[] = $row['beginStatus'];
+                $charecter_skill[] = $row['skill'];
+                $charecter_remodel[] = $row['reModel'];
+                $charecter_costom[] = $row['cusTom'];
+
             }
         }
     ?>
@@ -154,21 +154,21 @@
         $r = $conn->query($sql);
         if ($r->num_rows > 0){
             while ($row = $r->fetch_assoc()){
-                $detail_name[] = $row['name']; 
-                $detail_rarity[] = $row['rarity'];       
-                $detail_nationality[] = $row['nationality'];  
-                $detail_class[] = $row['class']; 
-                $detail_hullType[] = $row['hullType'];       
-                $detail_TimeToCreate[] = $row['TimeToCreate']; 
-                $detail_location[] = $row['location']; 
-                $detail_upgrade[] = $row['upgrade']; 
-                $detail_destroy[] = $row['destroy'];                      
+                $detail_name[] = $row['name'];
+                $detail_rarity[] = $row['rarity'];
+                $detail_nationality[] = $row['nationality'];
+                $detail_class[] = $row['class'];
+                $detail_hullType[] = $row['hullType'];
+                $detail_TimeToCreate[] = $row['TimeToCreate'];
+                $detail_location[] = $row['location'];
+                $detail_upgrade[] = $row['upgrade'];
+                $detail_destroy[] = $row['destroy'];
             }
         }
         $countcontrol = 0;
     ?>
 
- <div class="container "> 
+ <div class="container ">
 <caption><h1>Charecter - Skill</h1></caption>
   <table class="table ">
   <thead class="thead-dark ">
@@ -186,17 +186,17 @@
        $result = $conn->query($sql);
        if ($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
-           
+
             echo '<td class="alert-success" scope="col">'.$row['id'].'</td>';
             echo '<td class="alert-warning" scope="col">'.'<img src ="../img/charecter/sub-'.$row['pic'].'" />'.'</td>';
             echo '<td class="alert-danger" scope="col">'.$row['name'].'</td>';
             echo '<td class="alert-primary" scope="col">'.$row['eff'].'</td>';
-            
+
             echo '</tr>';
           }
       }
   ?>
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
